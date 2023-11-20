@@ -1,0 +1,63 @@
+.navbar {
+    background-color: var(--col-dark);
+    height: 80px;
+    width: 100vw;
+    padding: 0; /* Remova ou ajuste conforme necessário */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_navbar {
+    display: flex;
+}
+
+.links_anchor, .links_social {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.links_anchor a, .links_social a, li {
+    color: var(--col-purple);
+    text-decoration: none;
+    list-style: none;
+}
+
+.links_social {
+    gap: 20px;
+    margin-right: 110px;
+}
+
+.links_social a {
+    color: var(--col-light-gray);
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    margin-left: 110px;
+}
+
+.btn-burguer {
+    display: none;
+}
+
+/* TODO: make logic for menu burguer */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+    .btn-burguer {
+        display: block;
+        margin: auto 30px;
+        color: var(--col-white);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    
+}
