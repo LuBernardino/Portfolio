@@ -11,6 +11,7 @@
 
 .links_navbar {
     display: flex;
+    align-items: center;
 }
 
 .links_anchor, .links_social {
@@ -23,41 +24,92 @@
     color: var(--col-purple);
     text-decoration: none;
     list-style: none;
+    transition: 0.4s ease;
+
+    &:hover {
+        color: var(--col-light-gray);
+    }
 }
 
 .links_social {
     gap: 20px;
-    margin-right: 110px;
+    margin-right: 60px;
 }
 
 .links_social a {
     color: var(--col-light-gray);
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
 }
 
 .logo {
-    margin-left: 110px;
+    margin-left: 60px;
 }
 
+/* css menu burguer */
 .btn-burguer {
     display: none;
 }
 
-/* TODO: make logic for menu burguer */
+/* @media (max-width: 380px) */
+/* @media (max-width: 768px) */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-    /* CSS */
+@media (max-width: 800px) {
+    .navbar {
+        height: 60px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+    
+    .links_navbar .links_anchor {
+        background-color: var(--col-dark);
+        opacity: 90%;
+
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        width: 100%;
+        margin: 0;
+        border-top: 0.5px solid var(--col-gray);
+    }
+
+    .links_navbar .links_anchor.open {
+        display: block;
+    }
+
+    .links_anchor a, .links_social a, li {
+        display: flex;
+        justify-content: center;
+        padding: 8px 0;
+    }
+
+    .links_social {
+        gap: 20px;
+        margin-right: 10px;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    
+        transition: opacity 0.2s ease, height 0.4s ease;
+    }
+    
+    .links_social.open {
+        opacity: 1;
+        height: auto;
+    }
+    
+        
+    /* css menu burguer */
     .btn-burguer {
         display: block;
         margin: auto 30px;
         color: var(--col-white);
+        background: none;
+        cursor: pointer;
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
-    /* CSS */
-    
-}
