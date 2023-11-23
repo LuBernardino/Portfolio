@@ -7,11 +7,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: sticky;
+    top: 0;
 }
 
 .links_navbar {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 .links_anchor, .links_social {
@@ -94,7 +98,7 @@
         height: 0;
         overflow: hidden;
     
-        transition: opacity 0.2s ease, height 0.4s ease;
+        transition: opacity 0.4s ease, height 0.4s ease;
     }
     
     .links_social.open {

@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--col-dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,10 +15,30 @@
   /* Colors */
   --col-dark: #222831;
   --col-dark-purple: #351648;
-  --col-purple: #B949FF;
-  --col-gray: #ABABAB;
-  --col-light-gray: #E8E8E8;
-  --col-white: #FFFFFF;
+  --col-purple: #b949ff;
+  --col-gray: #ababab;
+  --col-light-gray: #e8e8e8;
+  --col-white: #ffffff;
+  /* gradient colors - call using background="" */
+  --col-gradient-dark: linear-gradient(90deg, #181c22 0%, #222831 85.28%);
+  --col-gradient-purple: linear-gradient(180deg, #222831 0%, #351648 100%);
+  --col-gradient-light-purple: linear-gradient(
+    180deg,
+    #b949ff 0%,
+    #351648 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-weight: 400; */
+  /* font-size: 1.6rem; */
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,39 +49,84 @@ body {
   min-height: 100vh; */
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 120px 150px;
+}
+
+section:nth-child(1) {
+  background-color: plum;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  /* border-color: #646cff; */
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+span {
+  color: var(--col-purple);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* Buttons */
+/* Estilos para o link "DOWNLOAD CV" */
+
+.btn-cv {
+  border: 2px solid var(--col-purple);
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 18px 38px;
+  border-radius: 6px;
+  max-width: 230px;
+
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--col-purple);
+
+    box-shadow: 0px 1px 20px var(--col-purple);
+    color: #fff;
+    transform: scale(1.05);
+    /* transform: translateY(-1px); */
   }
-  a:hover {
-    /* color: #747bff; */
+
+}
+
+.i-icon {
+  font-size: 20px;
+}
+/* ------- */
+
+#home img {
+  display: none;
+  width: 580px;
+  position: absolute;
+  bottom: 0;
+  left: 480px;
+}
+
+#home p {
+  width: 400px;
+  padding: 50px 0;
+}
+
+@media (max-width: 800px) {
+  section {
+    padding: 100px 20px;
   }
-  button {
-    background-color: #f9f9f9;
+
+  #home img {
+    width: 380px;
+
+    left: 0px;
   }
 }

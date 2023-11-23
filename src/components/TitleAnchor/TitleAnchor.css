@@ -1,0 +1,53 @@
+.btn-get-look {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--col-purple);
+    max-width: 130px;
+    height: 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+h1 {
+    margin: 8px 0;
+    width: 100%;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--col-white);
+}
+/* ---------------------- */
+/* TODO: make this works */
+/* .retangulo {
+	width: 50px;
+	height: 5px;
+	position: absolute;
+    top: 180px;
+	background-color: var(--col-purple);
+    z-index: 10;
+}
+
+.line {
+    width: 25%;
+	height: 1px;
+	position: absolute;
+    top: 182px;
+	background-color: var(--col-light-gray);  
+} */
+/* ---------------------- */
+
+@media (max-width: 800px) {
+    .btn-get-look  {
+        font-size: 12px;
+        max-width: 80px;
+    }
+}
+    h1 {
+        font-size: 36px;
+    }
