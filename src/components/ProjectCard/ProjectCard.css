@@ -1,0 +1,58 @@
+.project-card {
+    position: relative;
+    /* Adicione outras propriedades conforme necessário */
+}
+
+.img-project-card {
+    height: 400px;
+    width: 228px;
+    object-fit: cover;
+}
+
+.info-card {
+    position: absolute;
+    bottom: 0;
+}
+
+.see-project-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(43, 49, 59, 0.90);
+    width: 228px;
+    cursor: pointer;
+    padding: 10px 0 10px 16px;
+    border: none;
+}
+
+.see-project-link p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.see-project-link a {
+    color: var(--col-purple);
+}
+
+.card-fluid {
+    height: 250px;
+    width: 228px;
+    text-align: justify;
+    background: rgba(43, 49, 59, 0.90);
+    padding: 18px;
+    font-weight: 300;
+    display: none;
+
+    &:hover {
+        display: block;
+    }
+}
+
+.card-fluid h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-fluid p {
+    font-size: 14px;
+}

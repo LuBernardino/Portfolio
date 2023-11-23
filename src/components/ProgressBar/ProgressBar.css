@@ -1,10 +1,10 @@
+.section-skils {
+    display: flex;
+    gap: 20px;
+}
+
 .progress-section {
-  width: 50%;
-  /* max-width: 600px; */
-  /* border-radius: 40px;
-  background: #333; */
-  /* padding: 1rem 2rem; */
-  /* margin: 0 auto; */
+  width: 90%;
 }
 
 .task-progress {
@@ -32,7 +32,7 @@ progress {
   appearance: none;
   border: none;
   /* border-radius: 10px; */
-  height: 8px;
+  height: 6px;
 }
 
 progress::-webkit-progress-bar {

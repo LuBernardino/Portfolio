@@ -1,17 +1,18 @@
 import Navbar from "./components/Navbar/Navbar";
 import ServiceCard from "./components/ServiceCard/ServiceCard";
-import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
-import ProgressBar from "./components/ProgressBar/ProgressBar";
-
 import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
+import ProgressBar from "./components/ProgressBar/ProgressBar";
+import ProjectCard from "./components/ProjectCard/ProjectCard";
+import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
+
+import { TbLetterH } from "react-icons/tb";
 import { BsBoxArrowRight } from "react-icons/bs";
 import { FaPencilAlt, FaCode, FaBus } from "react-icons/fa";
-import { TbLetterH } from "react-icons/tb";
 import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
 
+import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./App.css";
 
 
 function App() {
@@ -101,13 +102,34 @@ function App() {
           </div>
 
           {/* Progress bar */}
-          <div>
-            <ProgressBar title="HTML" percentage={50}/>
+          <div className="d-flex row">
+            <h3>My coding skills</h3>
+            <div className="section-skils">
+              <div className="col-6">
+                <ProgressBar title="HTML e CSSS" percentage={50}/>
+                <ProgressBar title="Javascript" percentage={50}/>
+                <ProgressBar title="Bootstrap" percentage={50}/>
+                {/* <ProgressBar title="Git e Github" percentage={50}/>
+                <ProgressBar title="Reactjs" percentage={50}/>
+                <ProgressBar title="Sass" percentage={50}/> */}
+              </div>
+              <div className="col-6">
+                <ProgressBar title="Ruby" percentage={50}/>
+              <ProgressBar title="Ruby on Rails" percentage={50}/>
+                <ProgressBar title="SQL" percentage={50}/>
+                {/* <ProgressBar title="Nodejs" percentage={50}/>
+                <ProgressBar title="Express" percentage={50}/>
+                <ProgressBar title="Heroku" percentage={50}/>
+                <ProgressBar title="Postgresql" percentage={50}/> */}
+              </div>
+
+            </div>
           </div>
         </section>
 
         <section id="projects">
           <TitleAnchor title="PROJECTS" sectionId="projects" />
+          <ProjectCard/>
         </section>
 
         <section id="contact">
