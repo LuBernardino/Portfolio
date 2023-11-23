@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import ServiceCard from "./components/ServiceCard/ServiceCard";
-import Experience from "./components/Experience/ExperienceCard";
+import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
+import ProgressBar from "./components/ProgressBar/ProgressBar";
 
 import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
 import { BsBoxArrowRight } from "react-icons/bs";
@@ -47,6 +48,7 @@ function App() {
 
         <section id="about">
           <TitleAnchor title="ABOUT ME" sectionId="about" />
+          {/* Services card */}
           <div className="d-flex justify-content-between">
             <h3>What Im doing</h3>
             <div>
@@ -79,8 +81,9 @@ function App() {
               <a href=""><IoIosArrowForward /></a>
             </div>
           </div>
+          {/* Experience card */}
           <div className="experience">
-            <Experience
+            <ExperienceCard
               title="Le Wagon"
               date="OCT 2020 - 2022"
               subtitle="Full Stack Developer"
@@ -88,13 +91,18 @@ function App() {
               icon={FaBus}
             />
 
-            <Experience
+            <ExperienceCard
               title="Hirota Food"
               date="OCT 2020 - 2022"
               subtitle="Archtech"
               description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
               icon={TbLetterH}
             />
+          </div>
+
+          {/* Progress bar */}
+          <div>
+            <ProgressBar title="HTML" percentage={50}/>
           </div>
         </section>
 
