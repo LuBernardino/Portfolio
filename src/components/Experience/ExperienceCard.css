@@ -1,0 +1,49 @@
+.experience {
+    display: flex;
+    gap: 20px;
+}
+
+.experience-card {
+    width: 500px;
+    border: 1px solid var(--col-gray);
+    margin-top: 28px;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+}
+
+.card-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-txt h5 {
+    font-size: 16px;
+}
+
+.card-txt h6 {
+    font-size: 14px;
+    color: var(--col-gray);
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid var(--col-gray);
+    width: 500px;
+    padding: 10px;
+}
+
+.header p {
+    font-size: 14px;
+    color: var(--col-gray);  
+}
+
+.description-txt p {
+    font-size: 14px;
+    padding: 12px;
+}

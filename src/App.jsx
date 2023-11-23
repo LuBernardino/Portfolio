@@ -1,15 +1,22 @@
 import Navbar from "./components/Navbar/Navbar";
 import ServiceCard from "./components/ServiceCard/ServiceCard";
+import Experience from "./components/Experience/ExperienceCard";
 
 import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
 import { BsBoxArrowRight } from "react-icons/bs";
-import { FaPencilAlt, FaCode } from "react-icons/fa";
+import { FaPencilAlt, FaCode, FaBus } from "react-icons/fa";
+import { TbLetterH } from "react-icons/tb";
+import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 
+
 function App() {
+
   return (
-    <>
+    <div>
       <Navbar />
       <main>
         <section id="home">
@@ -41,10 +48,52 @@ function App() {
         <section id="about">
           <TitleAnchor title="ABOUT ME" sectionId="about" />
           <div className="d-flex justify-content-between">
+            <h3>What Im doing</h3>
+            <div>
+              <a href=""><IoIosArrowBack /></a>
+              <a href=""><IoIosArrowForward /></a>
+            </div>
+          </div>
+          <div className="d-flex justify-content-between">
             <ServiceCard
               title="Web Design"
               description="It is a long established fact that a reader will be distracted by the readable content."
               icon={FaPencilAlt}
+            />
+            <ServiceCard
+              title="Web Development"
+              description="It is a long established fact that a reader will be distracted by the readable content."
+              icon={FaCode}
+            />
+            <ServiceCard
+              title="Web Development"
+              description="It is a long established fact that a reader will be distracted by the readable content."
+              icon={FaCode}
+            />
+          </div>
+
+          <div className="d-flex justify-content-between">
+            <h3>Experience</h3>
+            <div>
+              <a href=""><IoIosArrowBack /></a>
+              <a href=""><IoIosArrowForward /></a>
+            </div>
+          </div>
+          <div className="experience">
+            <Experience
+              title="Le Wagon"
+              date="OCT 2020 - 2022"
+              subtitle="Full Stack Developer"
+              description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
+              icon={FaBus}
+            />
+
+            <Experience
+              title="Hirota Food"
+              date="OCT 2020 - 2022"
+              subtitle="Archtech"
+              description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
+              icon={TbLetterH}
             />
           </div>
         </section>
@@ -64,7 +113,7 @@ function App() {
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
-    </>
+    </div>
   );
 }
 

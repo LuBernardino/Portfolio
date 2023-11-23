@@ -1,8 +1,6 @@
-/* SuaComponente.css */
-
 .service-card {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .circle {
@@ -17,23 +15,23 @@
   position: absolute;
   bottom: -10px;
   right: -15px;
-  margin: 8px; /* Ajuste conforme necessário para dar um espaçamento entre o ícone e a borda do círculo */
-  color: #ffffff; /* Cor do ícone, ajuste conforme necessário */
+  margin: 8px;
+  color: #ffffff;
 }
 
 .service-card-text {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .service-card-text h5 {
-    font-size: 15px;
-    font-weight: 700;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .service-card-text p {
-    font-size: 14px;
-    color: var(--col-gray);
+  font-size: 14px;
+  color: var(--col-gray);
 }
