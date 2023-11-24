@@ -1,10 +1,16 @@
-#root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
+.social-media-home {
+  display: flex;
+  gap: 50px;
+  margin: 100px 0 32px 0;
+  justify-content: center;
 }
 
-section {
-  height: 100vh;
-  /* margin-top: 100px; */
+.social-media-home a {
+  color: var(--col-purple);
+}
+
+@media (max-width: 450px) {
+  .social-media-home {
+    gap: 30px;
+  }
 }

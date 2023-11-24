@@ -4,7 +4,7 @@
 }
 
 .progress-section {
-  width: 90%;
+  width: 95%;
 }
 
 .task-progress {
@@ -42,4 +42,10 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
     background: #DEDEDE;
 }
-  
+
+@media (max-width: 450px) {
+    .section-skils {
+        flex-direction: column;
+        gap: 0;
+    }
+}

@@ -3,12 +3,15 @@ import ServiceCard from "./components/ServiceCard/ServiceCard";
 import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
+import ContactForm from "./components/ContactForm/ContactForm";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
+
 
 import { TbLetterH } from "react-icons/tb";
 import { BsBoxArrowRight } from "react-icons/bs";
 import { FaPencilAlt, FaCode, FaBus } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
+import { FaLinkedinIn, FaGithub, FaTwitch, FaInstagram, FaDiscord } from "react-icons/fa";
 
 import "./App.css";
 import "slick-carousel/slick/slick.css";
@@ -40,7 +43,7 @@ function App() {
           {/* TODO: making button component */}
           <button className="btn-cv">
             <BsBoxArrowRight className="i-icon" />
-            <a href="" class="">
+            <a href="">
               DOWNLOAD CV
             </a>
           </button>
@@ -50,14 +53,14 @@ function App() {
         <section id="about">
           <TitleAnchor title="ABOUT ME" sectionId="about" />
           {/* Services card */}
-          <div className="d-flex justify-content-between">
+          <div className="title">
             <h3>What Im doing</h3>
-            <div>
+            {/* <div>
               <a href=""><IoIosArrowBack /></a>
               <a href=""><IoIosArrowForward /></a>
-            </div>
+            </div> */}
           </div>
-          <div className="d-flex justify-content-between">
+          <div className="services">
             <ServiceCard
               title="Web Design"
               description="It is a long established fact that a reader will be distracted by the readable content."
@@ -75,12 +78,12 @@ function App() {
             />
           </div>
 
-          <div className="d-flex justify-content-between">
+          <div className="title">
             <h3>Experience</h3>
-            <div>
+            {/* <div>
               <a href=""><IoIosArrowBack /></a>
               <a href=""><IoIosArrowForward /></a>
-            </div>
+            </div> */}
           </div>
           {/* Experience card */}
           <div className="experience">
@@ -102,10 +105,10 @@ function App() {
           </div>
 
           {/* Progress bar */}
-          <div className="d-flex row">
+          <div className="title">
             <h3>My coding skills</h3>
             <div className="section-skils">
-              <div className="col-6">
+              <div className="col-lg-6 col-12">
                 <ProgressBar title="HTML e CSSS" percentage={50}/>
                 <ProgressBar title="Javascript" percentage={50}/>
                 <ProgressBar title="Bootstrap" percentage={50}/>
@@ -113,7 +116,7 @@ function App() {
                 <ProgressBar title="Reactjs" percentage={50}/>
                 <ProgressBar title="Sass" percentage={50}/> */}
               </div>
-              <div className="col-6">
+              <div className="col-lg-6 col-12">
                 <ProgressBar title="Ruby" percentage={50}/>
               <ProgressBar title="Ruby on Rails" percentage={50}/>
                 <ProgressBar title="SQL" percentage={50}/>
@@ -134,15 +137,18 @@ function App() {
 
         <section id="contact">
           <TitleAnchor title="CONTACT ME" sectionId="contact" />
+          <ContactForm />
+          <ul className="social-media-home">
+            <li><a href="https://www.linkedin.com/in/lubernardino/" target="_blank" rel="noreferrer" ><FaLinkedinIn size={30}/></a></li>
+            <li><a href="https://github.com/LuBernardino" target="_blank" rel="noreferrer" ><FaGithub size={30} /></a></li>
+            <li><a href="https://www.twitch.tv/lubstar_" target="_blank" rel="noreferrer" ><FaTwitch size={30} /></a></li>
+            <li><a href="https://www.instagram.com/luanac.bernardino/" target="_blank" rel="noreferrer" ><FaInstagram size={30} /></a></li>
+            <li><a href="#" target="_blank" ><FaDiscord size={30} /></a></li>
+          </ul>
         </section>
       </main>
 
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+
     </div>
   );
 }

@@ -11,7 +11,7 @@
 
 .info-card {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
 }
 
 .see-project-link {
@@ -43,9 +43,9 @@
     font-weight: 300;
     display: none;
 
-    &:hover {
+    /* &:hover {
         display: block;
-    }
+    } */
 }
 
 .card-fluid h3 {
@@ -55,4 +55,21 @@
 
 .card-fluid p {
     font-size: 14px;
+}
+
+@media (max-width: 450px) {
+    .img-project-card {
+        height: 290px;
+        width: 388px;
+    }
+
+    .see-project-link {
+        width: 388px;
+
+    }
+
+    .card-fluid {
+        height: 150px;
+        width: 388px;
+    }
 }
