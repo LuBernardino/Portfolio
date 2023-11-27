@@ -12,6 +12,7 @@ import { BsBoxArrowRight } from "react-icons/bs";
 import { FaPencilAlt, FaCode, FaBus } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
 import { FaLinkedinIn, FaGithub, FaTwitch, FaInstagram, FaDiscord } from "react-icons/fa";
+import { BsLayoutWtf } from "react-icons/bs";
 
 import "./App.css";
 import "slick-carousel/slick/slick.css";
@@ -52,6 +53,16 @@ function App() {
 
         <section id="about">
           <TitleAnchor title="ABOUT ME" sectionId="about" />
+          <div className="section-photo">
+            <p>
+              Graduated in Architecture, focus on the importance of the visual and usual 
+              aspect when developing a product. I completed a career migration and currently 
+              develop web applications, using tools such as Ruby on Rails, Javascript, SASS, 
+              Bootstrap, React, among others. Committed to creating exceptional and functional 
+              online experiences for users.
+            </p>
+            <img src="src\assets\photo.png" alt="" />
+          </div>
           {/* Services card */}
           <div className="title">
             <h3>What Im doing</h3>
@@ -89,7 +100,7 @@ function App() {
           <div className="experience">
             <ExperienceCard
               title="Le Wagon"
-              date="OCT 2020 - 2022"
+              date="JUL 2023 - SET 2023"
               subtitle="Full Stack Developer"
               description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
               icon={FaBus}
@@ -97,10 +108,18 @@ function App() {
 
             <ExperienceCard
               title="Hirota Food"
-              date="OCT 2020 - 2022"
+              date="SET 2020 - 2022"
+              subtitle="Architect"
+              description="Responsible for preparing and executing architectural projects for renovations, expansions and new constructions. Support to external designers and engineers for works in progress."
+              icon={TbLetterH}
+            />
+
+            <ExperienceCard
+              title="LB Arquitetura"
+              date="JAN 2018 - 2020"
               subtitle="Archtech"
               description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
-              icon={TbLetterH}
+              icon={BsLayoutWtf}
             />
           </div>
 
@@ -132,7 +151,35 @@ function App() {
 
         <section id="projects">
           <TitleAnchor title="PROJECTS" sectionId="projects" />
-          <ProjectCard/>
+          <div className="projects-div">
+            <ProjectCard
+              name="Animeart" 
+              description="Idea for a landing page for the first and second phase of the program StepByTech." 
+              imageSrc="src/assets/animeart.png"
+            />
+            <ProjectCard
+              name="Food Explorer" 
+              description="xplorer Course Food Explorer is an application that simulates an interactive menu for a fictional restaurant" 
+              imageSrc="src/assets/food_explorer.png"
+            />
+            <ProjectCard
+              name="Waterme" 
+              description="Consists on a web app that reminds you when to water your plants and how to care of 
+              them" 
+              imageSrc="src/assets/waterme.png"
+            />
+            <ProjectCard
+              name="TypeWeather" 
+              description=""
+              imageSrc="src/assets/type_weather.png"
+            />
+            <ProjectCard
+              name="hehehe" 
+              description="hehehee" 
+              imageSrc="src/assets/img-teste.jpg"
+            />
+          </div>
+
         </section>
 
         <section id="contact">

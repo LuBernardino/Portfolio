@@ -1,11 +1,16 @@
+.projects-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project-card {
     position: relative;
-    /* Adicione outras propriedades conforme necessário */
+    margin-top: 32px;
 }
 
 .img-project-card {
     height: 400px;
-    width: 228px;
+    width: 305px;
     object-fit: cover;
 }
 
@@ -13,15 +18,20 @@
     position: absolute;
     bottom: 5px;
 }
+.description {
+    position: relative;
+}
 
 .see-project-link {
     display: flex;
     align-items: center;
     gap: 10px;
     background: rgba(43, 49, 59, 0.90);
-    width: 228px;
+    width: 305px;
     cursor: pointer;
     padding: 10px 0 10px 16px;
+    /* position: absolute;
+    top: -48px; */
     border: none;
 }
 
@@ -34,18 +44,24 @@
     color: var(--col-purple);
 }
 
+.see-project-link:hover + .card-fluid,
+.card-fluid:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
 .card-fluid {
     height: 250px;
-    width: 228px;
+    width: 305px;
     text-align: justify;
     background: rgba(43, 49, 59, 0.90);
     padding: 18px;
     font-weight: 300;
-    display: none;
-
-    /* &:hover {
-        display: block;
-    } */
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: -250px;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .card-fluid h3 {

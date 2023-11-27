@@ -20,7 +20,7 @@ export default function Navbar() {
       <li className="logo"><a href="#dev">Logo</a></li>
       <div className="links_navbar">
         <ul className={`links_anchor ${isMenuOpen ? "open" : ""}`}>
-          <li><a href="#home" onClick={closeMenu}>Home</a></li>
+          <li><a href="#root" onClick={closeMenu}>Home</a></li>
           <li><a href="#about" onClick={closeMenu}>About me</a></li>
           <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
           <li><a href="#contact" onClick={closeMenu}>Contact me</a></li>

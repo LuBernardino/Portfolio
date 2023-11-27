@@ -1,12 +1,13 @@
 .experience {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .experience-card {
     width: 388px;
     border: 1px solid var(--col-gray);
+    margin-bottom: 20px;
 }
 
 .card {
@@ -48,4 +49,10 @@
     font-size: 14px;
     padding: 12px;
     text-align: justify;
+}
+
+@media (min-width: 450px) {
+    .experience {
+        flex-direction: row;
+    }
 }
