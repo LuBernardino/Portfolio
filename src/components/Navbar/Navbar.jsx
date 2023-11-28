@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaLinkedinIn, FaGithub, FaTwitch, FaInstagram, FaDiscord } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
@@ -6,6 +6,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [navbarShow, setNavbar] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen((open) => !open);
@@ -15,8 +16,22 @@ export default function Navbar() {
     setIsMenuOpen(false);
   };
 
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  }
+
+  useEffect(() => {
+    changeBackground()
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground)
+  })
+
   return (
-    <div className="navbar">
+    <div className={`navbar ${navbarShow ? "active" : ""}`}>
       <li className="logo"><a href="#dev">Logo</a></li>
       <div className="links_navbar">
         <ul className={`links_anchor ${isMenuOpen ? "open" : ""}`}>

@@ -22,25 +22,6 @@ a {
     text-decoration: none;
     color: var(--col-white);
 }
-/* ---------------------- */
-/* TODO: make this works */
-/* .retangulo {
-	width: 50px;
-	height: 5px;
-	position: absolute;
-    top: 180px;
-	background-color: var(--col-purple);
-    z-index: 10;
-}
-
-.line {
-    width: 25%;
-	height: 1px;
-	position: absolute;
-    top: 182px;
-	background-color: var(--col-light-gray);  
-} */
-/* ---------------------- */
 
 @media (max-width: 800px) {
     .btn-get-look  {
@@ -48,6 +29,3 @@ a {
         max-width: 90px;
     }
 }
-    h1 {
-        font-size: 36px;
-    }

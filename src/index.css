@@ -104,10 +104,9 @@ span {
 
   &:hover {
     background-color: var(--col-purple);
-
     box-shadow: 0px 1px 20px var(--col-purple);
-    color: #fff;
     transform: scale(1.05);
+    color: #FFF;
     /* transform: translateY(-1px); */
   }
 }

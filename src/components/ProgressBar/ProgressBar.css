@@ -1,7 +1,6 @@
 .section-skils {
-    display: flex;
-    flex-direction: column;
-    /* gap: 20px; */
+  display: flex;
+  flex-direction: column;
 }
 
 .progress-section {
@@ -32,7 +31,6 @@ progress {
   -webkit-appearance: none;
   appearance: none;
   border: none;
-  /* border-radius: 10px; */
   height: 6px;
 }
 

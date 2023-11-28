@@ -20,7 +20,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Lógica para enviar o formulário
+    // TODO: Lógica para enviar o formulário
     console.log("Formulário enviado:", formData);
   };
 
@@ -28,22 +28,18 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit}>
       <h4 className="title"><span>LET'S</span> TALK ABOUT IDEIAS</h4>
         <label>
-          {/* Name: */}
           <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name"/>
         </label>
 
         <label>
-          {/* Email: */}
           <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email"/>
         </label>
 
       <label>
-        {/* Title: */}
         <input type="text" name="title" value={formData.title} onChange={handleChange} placeholder="Message Title" />
       </label>
 
       <label>
-        {/* Text: */}
         <textarea name="text" value={formData.text} onChange={handleChange} placeholder="Your Message" />
       </label>
 

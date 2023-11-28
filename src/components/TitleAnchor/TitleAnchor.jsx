@@ -9,8 +9,6 @@ export default function TitleAnchor({ title, sectionId }) {
         <p>Get Look</p>
       </div>
       <h1>{title}</h1>
-      {/* <div className="retangulo"></div>
-      <div className="line"></div> */}
     </div>
   );
 }

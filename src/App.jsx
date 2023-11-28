@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <main>
         <section id="home">
-          <img src="src\assets\img-lubs.png" alt="ilustration web dev lubs" class="image-home"/>
+          <img src="src\assets\img-lubs.png" alt="ilustration web dev lubs" className="image-home"/>
           <div className="content-home">
             <h5>
               HELLO, <span>MY NAME IS</span>

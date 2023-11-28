@@ -7,7 +7,6 @@ export default function ProjectCard({ name, description, imageSrc }) {
     <div className="project-card">
       <img src={imageSrc} alt={`Project: ${name}`} className="img-project-card" />
       <div className="info-card">
-        {/* TODO: making this works */}
         <div className="description">
           <button className="see-project-link">
             <p>See project</p>
