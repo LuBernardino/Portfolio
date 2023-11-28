@@ -1,6 +1,7 @@
 .section-skils {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    /* gap: 20px; */
 }
 
 .progress-section {
@@ -43,9 +44,8 @@ progress::-webkit-progress-value {
     background: #DEDEDE;
 }
 
-@media (max-width: 450px) {
+@media screen and (min-width: 1000px) {
     .section-skils {
-        flex-direction: column;
-        gap: 0;
+      flex-direction: row;
     }
 }

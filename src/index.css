@@ -22,6 +22,7 @@
   /* gradient colors - call using background="" */
   --col-gradient-dark: linear-gradient(90deg, #181c22 0%, #222831 85.28%);
   --col-gradient-purple: linear-gradient(180deg, #222831 0%, #351648 100%);
+  --col-gradient-purple-180: linear-gradient(180deg, #351648 0%, #1F242C 100%);
   --col-gradient-light-purple: linear-gradient(
     180deg,
     #b949ff 0%,
@@ -33,12 +34,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Poppins", sans-serif; */
-  /* font-weight: 400; */
-  /* font-size: 1.6rem; */
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
+  /* max-width: 430px; */
 }
 
 body {
@@ -60,13 +59,29 @@ section {
 }
 
 section:nth-child(1) {
-  background-color: rgb(160, 204, 221);
+  background: var(--col-gradient-purple);
   min-height: calc(100vh - 80px);
+  padding: 0 150px 0 0;
+
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  /* border-bottom: 30px solid var(--col-purple); */
+}
+
+/* section:nth-child(2) {
+  background: var(--col-gradient-purple-180);
+} */
+
+section:nth-last-child(1) {
+  /* TODO: bg reponsive */
+  background: var(--col-gradient-purple);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-shadow: 0.1em 0.1em 0.2em rgb(29, 28, 28);
 }
 
 span {
@@ -74,15 +89,10 @@ span {
 }
 
 /* Buttons */
-/* Estilos para o link "DOWNLOAD CV" */
 
 .btn-cv {
   border: 2px solid var(--col-purple);
   background: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
 
   padding: 18px 38px;
   border-radius: 6px;
@@ -100,61 +110,85 @@ span {
     transform: scale(1.05);
     /* transform: translateY(-1px); */
   }
+}
 
+.btn-cv a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .i-icon {
   font-size: 20px;
 }
-/* ------- */
+/* ------------------- */
 
-#home img {
-  display: none;
-  width: 580px;
-  position: absolute;
-  bottom: 0;
-  left: 480px;
+/* Style section HOME */
+.image-home {
+  width: 800px;
+  margin-top: -90px;
 }
 
-#home p {
+.content-home p {
   width: 400px;
   padding: 50px 0;
 }
+
+.content-home {
+  margin-top: 120px;
+}
+
+/* ------------------- */
 
 .section-photo {
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .section-photo p {
   text-align: justify;
-  max-width: 730px;
+  width: 100%;
+  padding: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   section {
     padding: 100px 20px 0 20px;
   }
 
   section:nth-child(1) {
     min-height: calc(100vh - 60px);
+    flex-direction: column-reverse;
+    padding: 0;
   }
 
-  #home img {
-    width: 380px;
+  .content-home {
+    padding: 0 20px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
 
-    left: 0px;
+  .image-home {
+    width: 430px;
   }
 
   .section-photo {
     margin: 20px 0;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     gap: 20px;
   }
 
-  .section-photo p {
-    max-width: 380px;
+  .content-home p {
+    width: 350px;
+    padding: 30px 0;
+    font-size: 14px;
+  }
+
+  .btn-cv {
+    margin-left: 80px;
+    padding: 18px 38px;
   }
 }
