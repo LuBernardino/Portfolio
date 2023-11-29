@@ -84,6 +84,7 @@ function App() {
               A riqueza das narrativas, os personagens envolventes e a variedade de estilos artísticos sempre me fascinam. 
               <span> Jogos</span>, aprecio também a criatividade envolvida no design de jogos e a maneira como eles proporcionam experiências 
               imersivas.
+              {/* <button className="btn-education">My Education and certifications</button> */}
             </p>
             <img src="src\assets\photo.png" alt="" />
           </div>
@@ -172,21 +173,25 @@ function App() {
               name="Animeart"
               description="Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon"
               imageSrc="src/assets/animeart.png"
+              projectLink="/animeart"
             />
             <ProjectCard
               name="Food Explorer"
               description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful."
               imageSrc="src/assets/food_explorer.png"
+              projectLink="/food_explorer"
             />
             <ProjectCard
               name="Waterme"
               description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs."
               imageSrc="src/assets/waterme.png"
+              projectLink="/waterme"
             />
             <ProjectCard
               name="TypeWeather"
               description="TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS)."
               imageSrc="src/assets/type_weather.png"
+              projectLink="/typeweather"
             />
           </div>
         </section>

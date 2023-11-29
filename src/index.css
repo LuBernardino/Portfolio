@@ -120,6 +120,17 @@ span {
 .i-icon {
   font-size: 20px;
 }
+
+.btn-education {
+  padding: 6px 20px;
+  background-color: var(--col-purple);
+  color: var(--col-dark-purple);
+  border-radius: 6px;
+  border: none;
+  margin-left: 210px;
+  font-weight: 600;
+  cursor: pointer;
+}
 /* ------------------- */
 
 /* Style section HOME */
