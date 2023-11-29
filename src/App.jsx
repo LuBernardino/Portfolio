@@ -173,7 +173,7 @@ function App() {
               name="Animeart"
               description="Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon"
               imageSrc="src/assets/animeart.png"
-              projectLink="/animeart"
+              projectLink="/project/1"
             />
             <ProjectCard
               name="Food Explorer"

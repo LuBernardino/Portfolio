@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": [
+      {
+        "description": "",
+        "source": ""
+      }
+    ],
+    "title": "Animeart",
+    "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
+    "stack": ["FaReact", "FaCss3"],
+    "link_deploy": "",
+    "link_github": "",
+    "link_figma": ""
+  },
+  {
+    "id": 2,
+    "image": [
+      {
+        "description": "",
+        "source": ""
+      }
+    ],
+    "title": "bobao",
+    "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
+    "stack": ["FaReact", "FaCss3"],
+    "link_deploy": "",
+    "link_github": "",
+    "link_figma": ""
+  }
+]
