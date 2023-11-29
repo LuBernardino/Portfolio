@@ -8,7 +8,7 @@ import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import LuanaBernardinoPdf from "./CV_Luana_Bernardino_Full_Stack_Web_Developer.pdf";
 import { TbLetterH } from "react-icons/tb";
 import { BsBoxArrowRight } from "react-icons/bs";
-import { FaPencilAlt, FaCode, FaBus } from "react-icons/fa";
+import { FaPencilAlt, FaCode, FaBus, FaLaptopCode } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import {
@@ -30,7 +30,11 @@ function App() {
       <Navbar />
       <main>
         <section id="home">
-          <img src="src\assets\img-lubs.png" alt="ilustration web dev lubs" className="image-home"/>
+          <img
+            src="src\assets\img-lubs.png"
+            alt="ilustration web dev lubs"
+            className="image-home"
+          />
           <div className="content-home">
             <h5>
               HELLO, <span>MY NAME IS</span>
@@ -64,47 +68,49 @@ function App() {
           <TitleAnchor title="ABOUT ME" sectionId="about" />
           <div className="section-photo">
             <p>
-              Graduated in Architecture, focus on the importance of the visual
-              and usual aspect when developing a product. I completed a career
-              migration and currently develop web applications, using tools such
-              as Ruby on Rails, Javascript, SASS, Bootstrap, React, among
-              others. Committed to creating exceptional and functional online
-              experiences for users.
+              Sou uma <span>Desenvolvedora Full Stack</span> com formação em <span>Arquitetura</span>, Brasileira que atualmente reside em Lisboa, Portugal. 
+              Minha jornada profissional reflete uma migração de carreira, com ênfase na importância do design 
+              visual e funcional no desenvolvimento de produtos. Atualmente, meu foco está no universo das 
+              aplicações web, utilizando ferramentas como Ruby on Rails, Javascript, SASS, Bootstrap e React.
+              <br/>
+              <br/>
+              ▪️ Comprometida em <span>criar experiências</span> online excepcionais e funcionais, minha paixão pela arquitetura influencia 
+              minha abordagem, valorizando tanto a estética quanto a usabilidade.
+              <br/>
+              <br/>
+              ▪️Além do desenvolvimento web, sou apaixonada por <span>Filmes</span>, Gosto de explorar diferentes gêneros cinematográficos, 
+              desde clássicos até produções contemporâneas com destaque para filmes de <span>Animação</span>. <span>Animes e Mangás</span>, Tenho uma 
+              profunda apreciação pela animação japonesa e pela forma única de contar histórias encontrada nos mangás. 
+              A riqueza das narrativas, os personagens envolventes e a variedade de estilos artísticos sempre me fascinam. 
+              <span> Jogos</span>, aprecio também a criatividade envolvida no design de jogos e a maneira como eles proporcionam experiências 
+              imersivas.
             </p>
             <img src="src\assets\photo.png" alt="" />
           </div>
           {/* Services card */}
           <div className="title">
             <h3>What Im doing</h3>
-            {/* <div>
-              <a href=""><IoIosArrowBack /></a>
-              <a href=""><IoIosArrowForward /></a>
-            </div> */}
           </div>
           <div className="services">
             <ServiceCard
-              title="Web Design"
-              description="It is a long established fact that a reader will be distracted by the readable content."
+              title="Web Design with Figma"
+              description="Crio designs visualmente cativantes no Figma, integrando criatividade e funcionalidade para entregar interfaces atraentes e eficazes."
               icon={FaPencilAlt}
             />
             <ServiceCard
-              title="Web Development"
-              description="It is a long established fact that a reader will be distracted by the readable content."
+              title="Front-End Development"
+              description="Utilizo HTML, CSS e JavaScript para criar interfaces responsivas e envolventes, garantindo uma experiência do usuário intuitiva e interativa com foco na tradução de designs visualmente atraentes."
               icon={FaCode}
             />
             <ServiceCard
               title="Web Development"
-              description="It is a long established fact that a reader will be distracted by the readable content."
-              icon={FaCode}
+              description="Desenvolvedora full stack especializada em ReactJS, Node.js e Ruby on Rails, proporcionando soluções completas e eficientes para aplicações web modernas e escaláveis."
+              icon={FaLaptopCode}
             />
           </div>
 
           <div className="title">
             <h3>Experience</h3>
-            {/* <div>
-              <a href=""><IoIosArrowBack /></a>
-              <a href=""><IoIosArrowForward /></a>
-            </div> */}
           </div>
           {/* Experience card */}
           <div className="experience">
@@ -112,23 +118,23 @@ function App() {
               title="Le Wagon"
               date="JUL 2023 - SET 2023"
               subtitle="Full Stack Developer"
-              description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
+              description="Desenvolvi uma aplicação web em equipe, uma plataforma que lembra quando regar plantas, utilizando HTML, Scss, Javascript, Bootstrap, Ruby e Rails e Heroku."
               icon={FaBus}
             />
 
             <ExperienceCard
               title="Hirota Food"
-              date="SET 2020 - 2022"
+              date="SET 2020 - JUN 2022"
               subtitle="Architect"
-              description="Responsible for preparing and executing architectural projects for renovations, expansions and new constructions. Support to external designers and engineers for works in progress."
+              description="Atuei como Arquiteta, desenvolvendo projetos arquitetônicos e garantindo a implementação dos padrões estabelecidos pela empresa."
               icon={TbLetterH}
             />
 
             <ExperienceCard
               title="LB Arquitetura"
-              date="JAN 2018 - 2020"
+              date="JAN 2018 - AGO 2020"
               subtitle="Archtech"
-              description="I developed a web app in a team of 4 people, which consists of a web application that reminds you when to water your plants and teaches you how to care for them. The technologies used in this project were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
+              description="Desenvolvi projetos arquitetônicos, complementares e urbanísticos, além de trabalhar em modelagem 3D, design de interiores, e animação 3D."
               icon={BsLayoutWtf}
             />
           </div>
@@ -138,21 +144,22 @@ function App() {
             <h3>My coding skills</h3>
             <div className="section-skils">
               <div className="col-lg-6 col-12">
-                <ProgressBar title="HTML e CSSS" percentage={50} />
-                <ProgressBar title="Javascript" percentage={50} />
-                <ProgressBar title="Bootstrap" percentage={50} />
-                <ProgressBar title="Git e Github" percentage={50}/>
-                <ProgressBar title="Reactjs" percentage={50}/>
-                <ProgressBar title="Sass/ Scss" percentage={50}/>
-                <ProgressBar title="Ruby" percentage={50} />
+                <ProgressBar title="HTML e CSS" percentage={100} />
+                <ProgressBar title="Javascript" percentage={90} />
+                <ProgressBar title="Typescript" percentage={50} />
+                <ProgressBar title="Bootstrap" percentage={100} />
+                <ProgressBar title="Git e Github" percentage={100} />
+                <ProgressBar title="Reactjs" percentage={80} />
+                <ProgressBar title="Sass/ Scss" percentage={50} />
               </div>
               <div className="col-lg-6 col-12">
-                <ProgressBar title="Ruby on Rails" percentage={50} />
+                <ProgressBar title="Ruby" percentage={70} />
+                <ProgressBar title="Ruby on Rails" percentage={70} />
                 <ProgressBar title="SQL" percentage={50} />
-                <ProgressBar title="Nodejs" percentage={50}/>
-                <ProgressBar title="Express" percentage={50}/>
-                <ProgressBar title="Heroku" percentage={50}/>
-                <ProgressBar title="Postgresql" percentage={50}/>
+                <ProgressBar title="Nodejs" percentage={70} />
+                <ProgressBar title="Express" percentage={50} />
+                <ProgressBar title="Heroku" percentage={70} />
+                <ProgressBar title="Postgresql" percentage={50} />
               </div>
             </div>
           </div>
@@ -163,29 +170,23 @@ function App() {
           <div className="projects-div">
             <ProjectCard
               name="Animeart"
-              description="Idea for a landing page for the first and second phase of the program StepByTech."
+              description="Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon"
               imageSrc="src/assets/animeart.png"
             />
             <ProjectCard
               name="Food Explorer"
-              description="xplorer Course Food Explorer is an application that simulates an interactive menu for a fictional restaurant"
+              description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful."
               imageSrc="src/assets/food_explorer.png"
             />
             <ProjectCard
               name="Waterme"
-              description="Consists on a web app that reminds you when to water your plants and how to care of 
-              them"
+              description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs."
               imageSrc="src/assets/waterme.png"
             />
             <ProjectCard
               name="TypeWeather"
-              description=""
+              description="TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS)."
               imageSrc="src/assets/type_weather.png"
-            />
-            <ProjectCard
-              name="hehehe"
-              description="hehehee"
-              imageSrc="src/assets/img-teste.jpg"
             />
           </div>
         </section>
