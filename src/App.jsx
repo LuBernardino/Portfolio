@@ -179,19 +179,19 @@ function App() {
               name="Food Explorer"
               description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful."
               imageSrc="src/assets/food_explorer.png"
-              projectLink="/food_explorer"
+              projectLink="/project/2"
             />
             <ProjectCard
               name="Waterme"
               description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs."
               imageSrc="src/assets/waterme.png"
-              projectLink="/waterme"
+              projectLink="/project/3"
             />
             <ProjectCard
               name="TypeWeather"
               description="TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS)."
               imageSrc="src/assets/type_weather.png"
-              projectLink="/typeweather"
+              projectLink="/project/4"
             />
           </div>
         </section>

@@ -7,7 +7,7 @@
         "source": ""
       }
     ],
-    "title": "Animeart",
+    "title": "ANIMEART",
     "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
     "stack": ["FaReact", "FaCss3"],
     "link_deploy": "",
@@ -22,9 +22,39 @@
         "source": ""
       }
     ],
-    "title": "bobao",
-    "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
-    "stack": ["FaReact", "FaCss3"],
+    "title": "FOOD EXPLORER",
+    "description": "Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful.",
+    "stack": [""],
+    "link_deploy": "",
+    "link_github": "",
+    "link_figma": ""
+  },
+  {
+    "id": 3,
+    "image": [
+      {
+        "description": "",
+        "source": ""
+      }
+    ],
+    "title": "WATERME",
+    "description": "Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs.",
+    "stack": [""],
+    "link_deploy": "",
+    "link_github": "",
+    "link_figma": ""
+  },
+  {
+    "id": 4,
+    "image": [
+      {
+        "description": "",
+        "source": ""
+      }
+    ],
+    "title": "TYPEWEATHER",
+    "description": "TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS).",
+    "stack": [""],
     "link_deploy": "",
     "link_github": "",
     "link_figma": ""
