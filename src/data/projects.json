@@ -114,7 +114,19 @@
         "image": [
             {
                 "description": "",
-                "source": ""
+                "source": "../src/assets/typeweather/desktop/Desktop_Busca.png"
+            },
+            {
+                "description": "",
+                "source": "../src/assets/typeweather/desktop/Desktop_Resultados.png"
+            },
+            {
+                "description": "",
+                "source": "../src/assets/typeweather/desktop/Desktop_Load.png"
+            },
+            {
+                "description": "",
+                "source": "../src/assets/typeweather/desktop/Desktop_Dash.png"
             }
         ],
         "title": "TYPEWEATHER",
