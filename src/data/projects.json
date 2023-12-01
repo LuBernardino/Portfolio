@@ -4,15 +4,19 @@
         "image": [
             {
                 "description": "blabla",
-                "source": "https://bensvet.com.br/wp-content/uploads/2020/01/como-montar-uma-creche-para-pets-passos-para-abrir-day-care.jpg"
+                "source": "../src/assets/animeart/01.png"
             },
             {
                 "description": "blabla",
-                "source": "https://petdelicia.com.br/blog/wp-content/uploads/2020/05/Captura-de-Tela-2020-05-28-a%CC%80s-00.23.33.png"
+                "source": "../src/assets/animeart/02.png"
             },
             {
                 "description": "blabla",
-                "source": "https://www.jornalmantiqueira.com.br/wp-content/uploads/2023/08/pets.jpg"
+                "source": "../src/assets/animeart/03.png"
+            },
+            {
+                "description": "blabla",
+                "source": "../src/assets/animeart/04.png"
             }
         ],
         "title": "ANIMEART",
@@ -33,16 +37,32 @@
         "id": 2,
         "image": [
             {
-                "description": "blablabla",
-                "source": "src/assets/animeart.png"
+                "description": "homepage usuário comum",
+                "source": "../src/assets/food_explorer/Home_user.png"
             },
             {
-                "description": "blablabla",
-                "source": "src/assets/food_explorer.png"
+                "description": "sign in page",
+                "source": "../src/assets/food_explorer/Sign_in.png"
             },
             {
-                "description": "blablabla",
-                "source": "src/assets/waterme.png"
+                "description": "Sign up page",
+                "source": "../src/assets/food_explorer/Sign_up.png"
+            },
+            {
+                "description": "blabla",
+                "source": "../src/assets/food_explorer/Home_admin.png"
+            },
+            {
+                "description": "blabla",
+                "source": "../src/assets/food_explorer/detail_dish.png"
+            },
+            {
+                "description": "blabla",
+                "source": "../src/assets/food_explorer/Add_dish.jpeg"
+            },
+            {
+                "description": "blabla",
+                "source": "../src/assets/food_explorer/Edit_dish.jpeg"
             }
         ],
         "title": "FOOD EXPLORER",
