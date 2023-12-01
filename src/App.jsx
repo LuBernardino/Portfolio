@@ -4,6 +4,7 @@ import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 import ContactForm from "./components/ContactForm/ContactForm";
+import BackgroundStar from "./components/BackgroundStar/BackgroundStar";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import LuanaBernardinoPdf from "./CV_Luana_Bernardino_Full_Stack_Web_Developer.pdf";
 
@@ -17,9 +18,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
+
   return (
     <div>
       <Navbar />
+      <BackgroundStar />
       <main>
         <section id="home">
           <img

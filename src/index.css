@@ -138,6 +138,7 @@ span {
 .image-home {
   width: 800px;
   margin-top: -90px;
+  z-index: 100;
 }
 
 .content-home p {
