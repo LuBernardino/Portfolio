@@ -1,62 +1,107 @@
 [
-  {
-    "id": 1,
-    "image": [
-      {
-        "description": "",
-        "source": ""
-      }
-    ],
-    "title": "ANIMEART",
-    "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
-    "stack": ["FaReact", "FaCss3"],
-    "link_deploy": "",
-    "link_github": "",
-    "link_figma": ""
-  },
-  {
-    "id": 2,
-    "image": [
-      {
-        "description": "",
-        "source": ""
-      }
-    ],
-    "title": "FOOD EXPLORER",
-    "description": "Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful.",
-    "stack": [""],
-    "link_deploy": "",
-    "link_github": "",
-    "link_figma": ""
-  },
-  {
-    "id": 3,
-    "image": [
-      {
-        "description": "",
-        "source": ""
-      }
-    ],
-    "title": "WATERME",
-    "description": "Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs.",
-    "stack": [""],
-    "link_deploy": "",
-    "link_github": "",
-    "link_figma": ""
-  },
-  {
-    "id": 4,
-    "image": [
-      {
-        "description": "",
-        "source": ""
-      }
-    ],
-    "title": "TYPEWEATHER",
-    "description": "TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS).",
-    "stack": [""],
-    "link_deploy": "",
-    "link_github": "",
-    "link_figma": ""
-  }
+    {
+        "id": 1,
+        "image": [
+            {
+                "description": "blabla",
+                "source": "https://bensvet.com.br/wp-content/uploads/2020/01/como-montar-uma-creche-para-pets-passos-para-abrir-day-care.jpg"
+            },
+            {
+                "description": "blabla",
+                "source": "https://petdelicia.com.br/blog/wp-content/uploads/2020/05/Captura-de-Tela-2020-05-28-a%CC%80s-00.23.33.png"
+            },
+            {
+                "description": "blabla",
+                "source": "https://www.jornalmantiqueira.com.br/wp-content/uploads/2023/08/pets.jpg"
+            }
+        ],
+        "title": "ANIMEART",
+        "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
+        "stack": [
+            "FaHtml5",
+            "IoLogoCss3",
+            "DiJsBadge",
+            "SiOpenai",
+            "DiGit",
+            "FaGithub"
+        ],
+        "link_deploy": "https://lubernardino.github.io/Landing-Page-Animeart/",
+        "link_github": "https://github.com/LuBernardino/Landing-Page-Animeart",
+        "link_figma": ""
+    },
+    {
+        "id": 2,
+        "image": [
+            {
+                "description": "blablabla",
+                "source": "src/assets/animeart.png"
+            },
+            {
+                "description": "blablabla",
+                "source": "src/assets/food_explorer.png"
+            },
+            {
+                "description": "blablabla",
+                "source": "src/assets/waterme.png"
+            }
+        ],
+        "title": "FOOD EXPLORER",
+        "description": "Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful.",
+        "stack": [
+            "FaHtml5",
+            "IoLogoCss3",
+            "DiJsBadge",
+            "FaReact",
+            "DiNodejsSmall",
+            "SiExpress",
+            "SiSqlite",
+            "SiStyledcomponents",
+            "DiGit",
+            "FaGithub"
+        ],
+        "link_deploy": "",
+        "link_github": "",
+        "link_figma": ""
+    },
+    {
+        "id": 3,
+        "image": [
+            {
+                "description": "",
+                "source": ""
+            }
+        ],
+        "title": "WATERME",
+        "description": "Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs.",
+        "stack": [
+            "FaHtml5",
+            "IoLogoCss3",
+            "DiJsBadge",
+            "FaBootstrap",
+            "DiRuby",
+            "SiRubyonrails",
+            "SiStimulus",
+            "DiHeroku",
+            "DiGit",
+            "FaGithub"
+        ],
+        "link_deploy": "http://www.appwater.me/",
+        "link_github": "",
+        "link_figma": ""
+    },
+    {
+        "id": 4,
+        "image": [
+            {
+                "description": "",
+                "source": ""
+            }
+        ],
+        "title": "TYPEWEATHER",
+        "description": "TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS).",
+        "stack": [],
+        "link_deploy": "",
+        "link_github": "",
+        "link_figma": ""
+    }
 ]

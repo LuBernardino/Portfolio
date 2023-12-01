@@ -1,0 +1,50 @@
+.carousel {
+  position: relative;
+  width: 95%; /* 100% aqui esta saindo do slide, ver o que esta acontecendo, se diminuir pra 90 ou 95 funciona +/- */
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel__viewport {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel__slide {
+  min-width: 100%;
+}
+
+.carousel__snapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__snapper img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.carousel__navigation {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__navigation-button {
+  background-color: var(--col-dark-two);
+  color: var(--col-white);
+  border: none;
+  padding: 9px 8px 7px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}

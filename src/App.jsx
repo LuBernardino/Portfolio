@@ -6,19 +6,11 @@ import ProjectCard from "./components/ProjectCard/ProjectCard";
 import ContactForm from "./components/ContactForm/ContactForm";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import LuanaBernardinoPdf from "./CV_Luana_Bernardino_Full_Stack_Web_Developer.pdf";
-import { TbLetterH } from "react-icons/tb";
-import { BsBoxArrowRight } from "react-icons/bs";
-import { FaPencilAlt, FaCode, FaBus, FaLaptopCode } from "react-icons/fa";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-import {
-  FaLinkedinIn,
-  FaGithub,
-  FaTwitch,
-  FaInstagram,
-  FaDiscord,
-} from "react-icons/fa";
-import { BsLayoutWtf } from "react-icons/bs";
+import { TbLetterH } from "react-icons/tb";
+import { BsBoxArrowRight, BsLayoutWtf } from "react-icons/bs";
+import { FaPencilAlt, FaCode, FaBus, FaLaptopCode, FaLinkedinIn, FaGithub, FaTwitch, FaInstagram, FaDiscord } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import "./App.css";
 import "slick-carousel/slick/slick.css";

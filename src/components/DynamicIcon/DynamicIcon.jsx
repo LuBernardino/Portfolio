@@ -4,6 +4,10 @@ import * as biIcons from "react-icons/bi";
 import * as giIcons from "react-icons/gi";
 import * as faIcons from "react-icons/fa";
 import * as tbIcons from "react-icons/tb";
+import * as ioIcons from "react-icons/io";
+import * as siIcons from "react-icons/si";
+import * as diIcons from "react-icons/di";
+
 
 const DynamicIcon = ({ icon, className, size = 30 }) => {
   const getIcon = (iconName) => {
@@ -14,6 +18,9 @@ const DynamicIcon = ({ icon, className, size = 30 }) => {
     iconsMap.set("Gi", giIcons);
     iconsMap.set("Fa", faIcons);
     iconsMap.set("Tb", tbIcons);
+    iconsMap.set("Io", ioIcons);
+    iconsMap.set("Si", siIcons);
+    iconsMap.set("Di", diIcons);
 
     return iconsMap.get(iconName.substring(0, 2));
   };
