@@ -6,6 +6,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import TitleAnchor from "../../components/TitleAnchor/TitleAnchor";
 import DynamicIcon from "../../components/DynamicIcon/DynamicIcon";
 import Carousel from "../../components/Carousel/Carousel";
+import BackgroundStar from "../../components/BackgroundStar/BackgroundStar";
 
 // import 'bootstrap/dist/css/bootstrap.css';
 // import Carousel  from 'react-bootstrap/Carousel';
@@ -18,6 +19,7 @@ export default function Projects() {
     return (
       <div>
         <Navbar />
+        <BackgroundStar />
         <main className="project-container">
             <TitleAnchor title={projectDetail.title} sectionId="projects" />
             <div className="containers">
