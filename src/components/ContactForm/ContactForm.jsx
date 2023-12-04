@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,10 +17,24 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // TODO: Lógica para enviar o formulário
-    console.log("Formulário enviado:", formData);
+
+    try {
+      // Fazer a solicitação POST para o servidor
+      const response = await fetch("http://localhost:3001/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error("Erro ao enviar formulário", error);
+    }
   };
 
   return (

@@ -3,6 +3,7 @@ import ServiceCard from "./components/ServiceCard/ServiceCard";
 import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
+import AnimateCard from "./components/AnimateCard/AnimateCard.jsx";
 import ContactForm from "./components/ContactForm/ContactForm";
 import BackgroundStar from "./components/BackgroundStar/BackgroundStar";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
@@ -164,27 +165,27 @@ function App() {
         <section id="projects">
           <TitleAnchor title="PROJECTS" sectionId="projects" />
           <div className="projects-div">
-            <ProjectCard
+            <AnimateCard
               name="Animeart"
-              description="Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon"
+              description="Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School."
               imageSrc="src/assets/animeart.png"
               projectLink="/project/1"
             />
-            <ProjectCard
+            <AnimateCard
               name="Food Explorer"
-              description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful."
+              description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício."
               imageSrc="src/assets/food_explorer.png"
               projectLink="/project/2"
             />
-            <ProjectCard
+            <AnimateCard
               name="Waterme"
-              description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs."
+              description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas."
               imageSrc="src/assets/waterme.png"
               projectLink="/project/3"
             />
-            <ProjectCard
+            <AnimateCard
               name="TypeWeather"
-              description="TypeWeather é um aplicativo de previsão do tempo que fornece informações essenciais para planejar seu dia. Este é um projeto bônus para os certificados explorer da Rocketseat, um aplicativo de previsão do tempo que foi convertido de JavaScript (JS) para TypeScript (TS)."
+              description="TypeWeather é um aplicativo de previsão do tempo para planejar seu dia, foi convertido de JavaScript (JS) para TypeScript (TS). É um projeto bônus da Rocketseat."
               imageSrc="src/assets/type_weather.png"
               projectLink="/project/4"
             />

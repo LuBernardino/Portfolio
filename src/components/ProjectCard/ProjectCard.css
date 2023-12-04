@@ -66,6 +66,7 @@
     top: -250px;
     transition: opacity 0.5s ease-in-out;
     border-radius: 6px 6px 0 0;
+    /* border-top: 8px solid var(--col-purple); */
 }
 
 .card-fluid h3 {
