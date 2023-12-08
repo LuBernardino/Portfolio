@@ -1,3 +1,15 @@
+.square-purple {
+    width: 900px;
+    height: 560px;
+    border-radius: 2px;
+    border: 8px solid rgba(185, 73, 255, 0.80);
+    box-shadow: 0px 1px 20px var(--col-purple);
+    position: absolute;
+    top: 210px;
+    right: 140px;
+    z-index: -1;
+}
+
 .project-container {
     padding: 20px 150px 32px 150px;
 }

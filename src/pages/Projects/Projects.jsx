@@ -19,6 +19,7 @@ export default function Projects() {
     return (
       <div>
         <Navbar />
+        {/* <div className="square-purple"></div> */}
         <BackgroundStar />
         <main className="project-container">
             <TitleAnchor title={projectDetail.title} sectionId="projects" />

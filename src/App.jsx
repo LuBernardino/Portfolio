@@ -167,7 +167,7 @@ function App() {
           <div className="projects-div">
             <AnimateCard
               name="Animeart"
-              description="Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School."
+              description="Landing page desenvolvida para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a escola Le Wagon Lisboa."
               imageSrc="src/assets/animeart.png"
               projectLink="/project/1"
             />

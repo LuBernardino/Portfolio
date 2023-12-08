@@ -5,6 +5,7 @@
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
+  
 }
 
 .carousel__viewport {
@@ -47,4 +48,5 @@
   cursor: pointer;
   border-radius: 4px;
   font-size: 14px;
+  transition: all 0.4s;
 }
