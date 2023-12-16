@@ -22,6 +22,7 @@
   --col-white: #ffffff;
   /* gradient colors - call using background="" */
   --col-gradient-dark: linear-gradient(90deg, #181c22 0%, #222831 85.28%);
+  /* --col-gradient-dark-opacity: linear-gradient(180deg, #222831 0%, rgba(34, 40, 49, 0.00) 286%); */
   --col-gradient-purple: linear-gradient(180deg, #222831 0%, #351648 100%);
   --col-gradient-purple-180: linear-gradient(180deg, #351648 0%, #1F242C 100%);
   --col-gradient-light-purple: linear-gradient(
@@ -139,6 +140,7 @@ span {
   width: 800px;
   margin-top: -90px;
   z-index: 100;
+  object-fit: cover;
 }
 
 .content-home p {
