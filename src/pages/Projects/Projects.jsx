@@ -8,7 +8,6 @@ import DynamicIcon from "../../components/DynamicIcon/DynamicIcon";
 import Carousel from "../../components/Carousel/Carousel";
 import BackgroundStar from "../../components/BackgroundStar/BackgroundStar";
 import { FaGithub, FaFigma } from 'react-icons/fa';
-import { BiSolidHappyBeaming } from "react-icons/bi";
 
 // import 'bootstrap/dist/css/bootstrap.css';
 // import Carousel  from 'react-bootstrap/Carousel';
