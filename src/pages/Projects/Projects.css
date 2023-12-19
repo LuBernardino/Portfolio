@@ -20,14 +20,54 @@
     margin-top: 32px;
 }
 
+.section-links-project {
+    display: flex;
+    gap: 10px;
+}
+
+.project-link-deploy {
+    border: 1px solid var(--col-purple);
+    padding: 8px 85px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: var(--col-purple);
+      box-shadow: 0px 1px 20px var(--col-purple);
+      transform: scale(1.05);
+      color: #FFF;
+      /* transform: translateY(-1px); */
+    }
+}
+
+.btn-links {
+    border: 1px solid var(--col-purple);
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: var(--col-purple);
+      box-shadow: 0px 1px 20px var(--col-purple);
+      transform: scale(1.05);
+      color: #FFF;
+      /* transform: translateY(-1px); */
+    }
+}
+
 .project-txt {
     width: 380px;
     text-align: justify;
+    margin-top: 20px;
 }
 
 .list-icons {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     margin: 32px 0;
     max-width: 380px;
     flex-wrap: wrap;
@@ -35,7 +75,7 @@
 
 .project-icon {
     background-color: var(--col-dark-two);
-    padding: 15px 15px 10px 15px;
+    padding: 14px 12px 10px 12px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;

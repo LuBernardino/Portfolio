@@ -7,6 +7,8 @@ import TitleAnchor from "../../components/TitleAnchor/TitleAnchor";
 import DynamicIcon from "../../components/DynamicIcon/DynamicIcon";
 import Carousel from "../../components/Carousel/Carousel";
 import BackgroundStar from "../../components/BackgroundStar/BackgroundStar";
+import { FaGithub, FaFigma } from 'react-icons/fa';
+import { BiSolidHappyBeaming } from "react-icons/bi";
 
 // import 'bootstrap/dist/css/bootstrap.css';
 // import Carousel  from 'react-bootstrap/Carousel';
@@ -28,6 +30,17 @@ export default function Projects() {
                 <Carousel />
                 {/* END CARROSEL */}               
                 <div>
+                  <div className="section-links-project">
+                    <a className="project-link-deploy" href={projectDetail.link_deploy} target="_blank" rel="noopener noreferrer">
+                      Visite aqui !!
+                    </a>
+                    <a className="btn-links" href={projectDetail.link_github} target="_blank" rel="noopener noreferrer">
+                      <FaGithub />
+                    </a>
+                    <a className="btn-links" href={projectDetail.link_figma} target="_blank" rel="noopener noreferrer">
+                      <FaFigma />
+                    </a>
+                  </div>
                     <p className="project-txt"><span>Description</span> <br></br>{projectDetail.description}</p>
                     <ul className="list-icons">
                         {projectDetail.stack.map((stackItem, index) => (
@@ -35,11 +48,6 @@ export default function Projects() {
                             {<DynamicIcon icon={stackItem} />}
                         </li>
                         ))}
-                    </ul>
-                    <ul>
-                        <li>Acesse aqui: {projectDetail.link_deploy}</li>
-                        <li>Github: {projectDetail.link_github}</li>
-                        <li>Figma: {projectDetail.link_figma}</li>
                     </ul>
                 </div>
             </div>
