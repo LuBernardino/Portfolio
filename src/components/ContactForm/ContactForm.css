@@ -11,7 +11,7 @@ form {
 input, textarea {
     width: 100%;
     padding: 10px;
-    background: var(--col-gradient-dark);
+    background: rgba(43, 49, 59, 0.50);
     border: 1px solid var(--col-gray);
     border-radius: 6px;
     color: var(--col-white);
