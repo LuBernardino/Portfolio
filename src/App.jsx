@@ -67,7 +67,7 @@ function App() {
               Sou uma <span>Desenvolvedora Full Stack</span> com formação em <span>Arquitetura</span>, Brasileira que atualmente reside em Lisboa, Portugal. 
               Minha jornada profissional reflete uma migração de carreira, com ênfase na importância do design 
               visual e funcional no desenvolvimento de produtos. Atualmente, meu foco está no universo das 
-              aplicações web, utilizando ferramentas como Ruby on Rails, Javascript, SASS, Bootstrap e React.
+              aplicações web, utilizando ferramentas como <span>Ruby on Rails, Javascript, SASS, Bootstrap e React.</span>
               <br/>
               <br/>
               ▪️ Comprometida em <span>criar experiências</span> online excepcionais e funcionais, minha paixão pela arquitetura influencia 
@@ -75,11 +75,11 @@ function App() {
               <br/>
               <br/>
               ▪️Além do desenvolvimento web, sou apaixonada por <span>Filmes</span>, Gosto de explorar diferentes gêneros cinematográficos, 
-              desde clássicos até produções contemporâneas com destaque para filmes de <span>Animação</span>. <span>Animes e Mangás</span>, Tenho uma 
+              desde clássicos até produções contemporâneas com destaque para filmes de <span>Animação.</span> <span>Animes e Mangás</span>, Tenho uma 
               profunda apreciação pela animação japonesa e pela forma única de contar histórias encontrada nos mangás. 
               A riqueza das narrativas, os personagens envolventes e a variedade de estilos artísticos sempre me fascinam. 
-              <span> Jogos</span>, aprecio também a criatividade envolvida no design de jogos e a maneira como eles proporcionam experiências 
-              imersivas.
+              <span> Jogos</span>, aprecio também a criatividade envolvida no design de jogos e a maneira como eles proporcionam <span>experiências 
+              imersivas.</span>
               {/* <button className="btn-education">My Education and certifications</button> */}
             </p>
             <img src="src\assets\photo.png" alt="" />
@@ -168,13 +168,13 @@ function App() {
             <AnimateCard
               name="Animeart"
               description="Landing page desenvolvida para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a escola Le Wagon Lisboa."
-              imageSrc="src/assets/animeart.png"
+              imageSrc="src/assets/animeart/01.png"
               projectLink="/project/1"
             />
             <AnimateCard
               name="Food Explorer"
               description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício."
-              imageSrc="src/assets/food_explorer.png"
+              imageSrc="src/assets/food_explorer/Home_Admin.png"
               projectLink="/project/2"
             />
             <AnimateCard
@@ -186,8 +186,32 @@ function App() {
             <AnimateCard
               name="TypeWeather"
               description="TypeWeather é um aplicativo de previsão do tempo para planejar seu dia, foi convertido de JavaScript (JS) para TypeScript (TS). É um projeto bônus da Rocketseat."
-              imageSrc="src/assets/type_weather.png"
+              imageSrc="src/assets/typeweather/desktop/Desktop_Busca.png"
               projectLink="/project/4"
+            />
+            <AnimateCard
+              name="Calculator"
+              description="Projeto pessoal focado na criação de uma calculadora responsiva seguindo a abordagem 'Mobile First'. A calculadora oferece funcionalidades básicas de cálculo."
+              imageSrc="src/assets/calculator/Desktop_dark.png"
+              projectLink="/project/5"
+            />
+            <AnimateCard
+              name="FocusTimer"
+              description="Projeto desenvolvido durante o curso Explorer da Rocketseat, no módulo de Avançando na programação WEB com JavaScript, para construirmos um timer."
+              imageSrc="src/assets/focustimer/FocusTimer.png"
+              projectLink="/project/6"
+            />
+            <AnimateCard
+              name="IMC"
+              description="Prjeto de um aplicativo de cálculo do Índice de Massa Corporal (IMC). O foco foi na implementação funcional que permitisse aos usuários calcular seu IMC, para avaliar a relação entre peso e altura."
+              imageSrc="src/assets/imc/preview.png"
+              projectLink="/project/7"
+            />
+            <AnimateCard
+              name="Jogo da Advinhação"
+              description="O objetivo central foi implementar uma aplicação interativa que desafia os usuários a adivinharem um número aleatório no intervalo de 0 a 10, escolhido pelo sistema."
+              imageSrc="src/assets/jogo_da_advinhacao/Screen1.png"
+              projectLink="/project/8"
             />
           </div>
         </section>
