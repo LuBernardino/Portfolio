@@ -75,10 +75,11 @@
 
 .project-icon {
     background-color: var(--col-dark-two);
-    padding: 14px 12px 10px 12px;
+    padding: 15px 14px 10px 14px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    /* font-size: 10px; */
 
     &:hover {
         box-shadow: 0px 0px 20px 0px #B949FF;

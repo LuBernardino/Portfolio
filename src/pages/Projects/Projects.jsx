@@ -42,11 +42,11 @@ export default function Projects() {
                   </div>
                     <p className="project-txt"><span>Description</span> <br></br>{projectDetail.description}</p>
                     <ul className="list-icons">
-                        {projectDetail.stack.map((stackItem, index) => (
-                        <li className="project-icon" key={index}>
-                            {<DynamicIcon icon={stackItem} />}
-                        </li>
-                        ))}
+                      {projectDetail.stack.map((stackItem, index) => (
+                      <li className="project-icon" key={index}>
+                          {<DynamicIcon icon={stackItem} size={26}/>}
+                      </li>
+                      ))}
                     </ul>
                 </div>
             </div>

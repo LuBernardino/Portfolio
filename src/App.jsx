@@ -203,7 +203,7 @@ function App() {
             />
             <AnimateCard
               name="IMC"
-              description="Prjeto de um aplicativo de cálculo do Índice de Massa Corporal (IMC). O foco foi na implementação funcional que permitisse aos usuários calcular seu IMC, para avaliar a relação entre peso e altura."
+              description="Projeto de um aplicativo de cálculo do Índice de Massa Corporal (IMC). O foco foi na implementação funcional que permitisse aos usuários calcular seu IMC, para avaliar a relação entre peso e altura."
               imageSrc="src/assets/imc/preview.png"
               projectLink="/project/7"
             />
