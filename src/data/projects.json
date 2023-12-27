@@ -4,19 +4,19 @@
         "image": [
             {
                 "description": "blabla",
-                "source": "../src/assets/animeart/01.png"
+                "source": "/images/animeart/01.png"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/animeart/02.png"
+                "source": "/images/animeart/02.png"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/animeart/03.png"
+                "source": "/images/animeart/03.png"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/animeart/04.png"
+                "source": "/images/animeart/04.png"
             }
         ],
         "title": "ANIMEART",
@@ -38,31 +38,31 @@
         "image": [
             {
                 "description": "homepage usuário comum",
-                "source": "../src/assets/food_explorer/Home_user.png"
+                "source": "/images/food_explorer/Home_user.png"
             },
             {
                 "description": "sign in page",
-                "source": "../src/assets/food_explorer/Sign_in.png"
+                "source": "/images/food_explorer/Sign_in.png"
             },
             {
                 "description": "Sign up page",
-                "source": "../src/assets/food_explorer/Sign_up.png"
+                "source": "/images/food_explorer/Sign_up.png"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/food_explorer/Home_admin.png"
+                "source": "/images/food_explorer/Home_admin.png"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/food_explorer/detail_dish.png"
+                "source": "/images/food_explorer/detail_dish.png"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/food_explorer/Add_dish.jpeg"
+                "source": "/images/food_explorer/Add_dish.jpeg"
             },
             {
                 "description": "blabla",
-                "source": "../src/assets/food_explorer/Edit_dish.jpeg"
+                "source": "/images/food_explorer/Edit_dish.jpeg"
             }
         ],
         "title": "FOOD EXPLORER",
@@ -114,19 +114,19 @@
         "image": [
             {
                 "description": "",
-                "source": "../src/assets/typeweather/desktop/Desktop_Busca.png"
+                "source": "/images/typeweather/desktop/Desktop_Busca.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/typeweather/desktop/Desktop_Resultados.png"
+                "source": "/images/typeweather/desktop/Desktop_Resultados.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/typeweather/desktop/Desktop_Load.png"
+                "source": "/images/typeweather/desktop/Desktop_Load.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/typeweather/desktop/Desktop_Dash.png"
+                "source": "/images/typeweather/desktop/Desktop_Dash.png"
             }
         ],
         "title": "TYPEWEATHER",
@@ -141,11 +141,11 @@
         "image": [
             {
                 "description": "",
-                "source": "../src/assets/calculator/Desktop_dark.png"
+                "source": "/images/calculator/Desktop_dark.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/calculator/Desktop_light.png"
+                "source": "/images/calculator/Desktop_light.png"
             }
         ],
         "title": "CALCULATOR",
@@ -166,7 +166,7 @@
         "image": [
             {
                 "description": "",
-                "source": "../src/assets/focustimer/FocusTimer.png"
+                "source": "/images/focustimer/FocusTimer.png"
             }
         ],
         "title": "FOCUSTIMER",
@@ -187,15 +187,15 @@
         "image": [
             {
                 "description": "",
-                "source": "../src/assets/imc/preview.png"
+                "source": "/images/imc/preview.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/imc/modal.png"
+                "source": "/images/imc/modal.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/imc/screen-error.png"
+                "source": "/images/imc/screen-error.png"
             }
         ],
         "title": "IMC",
@@ -216,11 +216,11 @@
         "image": [
             {
                 "description": "",
-                "source": "../src/assets/jogo_da_advinhacao/Screen1.png"
+                "source": "/images/jogo_da_advinhacao/Screen1.png"
             },
             {
                 "description": "",
-                "source": "../src/assets/jogo_da_advinhacao/Screen2.png"
+                "source": "/images/jogo_da_advinhacao/Screen2.png"
             }
         ],
         "title": "JOGO DA ADVINHAÇÃO",

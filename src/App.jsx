@@ -27,7 +27,7 @@ function App() {
       <main>
         <section id="home">
           <img
-            src="src\assets\img-lubs.png"
+            src="images/img-lubs.png"
             alt="ilustration web dev lubs"
             className="image-home"
           />
@@ -82,7 +82,7 @@ function App() {
               imersivas.</span>
               {/* <button className="btn-education">My Education and certifications</button> */}
             </p>
-            <img src="src\assets\photo.png" alt="" />
+            <img src="images\photo.png" alt="" />
           </div>
           {/* Services card */}
           <div className="title">
@@ -168,49 +168,49 @@ function App() {
             <AnimateCard
               name="Animeart"
               description="Landing page desenvolvida para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a escola Le Wagon Lisboa."
-              imageSrc="src/assets/animeart/01.png"
+              imageSrc="images/animeart/01.png"
               projectLink="/project/1"
             />
             <AnimateCard
               name="Food Explorer"
               description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício."
-              imageSrc="src/assets/food_explorer/Home_Admin.png"
+              imageSrc="images/food_explorer/Home_admin.png"
               projectLink="/project/2"
             />
             <AnimateCard
               name="Waterme"
               description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas."
-              imageSrc="src/assets/waterme.png"
+              imageSrc="images/waterme.png"
               projectLink="/project/3"
             />
             <AnimateCard
               name="TypeWeather"
               description="TypeWeather é um aplicativo de previsão do tempo para planejar seu dia, foi convertido de JavaScript (JS) para TypeScript (TS). É um projeto bônus da Rocketseat."
-              imageSrc="src/assets/typeweather/desktop/Desktop_Busca.png"
+              imageSrc="images/typeweather/desktop/Desktop_Busca.png"
               projectLink="/project/4"
             />
             <AnimateCard
               name="Calculator"
               description="Projeto pessoal focado na criação de uma calculadora responsiva seguindo a abordagem 'Mobile First'. A calculadora oferece funcionalidades básicas de cálculo."
-              imageSrc="src/assets/calculator/Desktop_dark.png"
+              imageSrc="images/calculator/Desktop_dark.png"
               projectLink="/project/5"
             />
             <AnimateCard
               name="FocusTimer"
               description="Projeto desenvolvido durante o curso Explorer da Rocketseat, no módulo de Avançando na programação WEB com JavaScript, para construirmos um timer."
-              imageSrc="src/assets/focustimer/FocusTimer.png"
+              imageSrc="images/focustimer/FocusTimer.png"
               projectLink="/project/6"
             />
             <AnimateCard
               name="IMC"
               description="Projeto de um aplicativo de cálculo do Índice de Massa Corporal (IMC). O foco foi na implementação funcional que permitisse aos usuários calcular seu IMC, para avaliar a relação entre peso e altura."
-              imageSrc="src/assets/imc/preview.png"
+              imageSrc="images/imc/preview.png"
               projectLink="/project/7"
             />
             <AnimateCard
               name="Jogo da Advinhação"
               description="O objetivo central foi implementar uma aplicação interativa que desafia os usuários a adivinharem um número aleatório no intervalo de 0 a 10, escolhido pelo sistema."
-              imageSrc="src/assets/jogo_da_advinhacao/Screen1.png"
+              imageSrc="images/jogo_da_advinhacao/Screen1.png"
               projectLink="/project/8"
             />
           </div>
