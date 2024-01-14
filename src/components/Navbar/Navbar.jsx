@@ -32,7 +32,9 @@ export default function Navbar() {
 
   return (
     <div className={`navbar ${navbarShow ? "active" : ""}`}>
-      <li className="logo"><a href="#dev">Logo</a></li>
+      <a className="logo" href="#root">
+        <img src="../images/logo.png" alt="" />
+      </a>
       <div className="links_navbar">
         <ul className={`links_anchor ${isMenuOpen ? "open" : ""}`}>
           <li><a href="#root" onClick={closeMenu}>Home</a></li>
