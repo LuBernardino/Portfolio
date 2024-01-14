@@ -79,7 +79,7 @@ function App() {
               profunda apreciação pela animação japonesa e pela forma única de contar histórias encontrada nos mangás. 
               A riqueza das narrativas, os personagens envolventes e a variedade de estilos artísticos sempre me fascinam. 
               <span> Jogos</span>, aprecio também a criatividade envolvida no design de jogos e a maneira como eles proporcionam <span>experiências 
-              imersivas.</span>
+              imersivas.</span> No meu tempo livre costumo também, estudar e fazer <span>projetos pessoais</span> afim de melhorar meus conhecimentos técnicos.
               {/* <button className="btn-education">My Education and certifications</button> */}
             </p>
             <img src="images\photo.png" alt="" />
@@ -183,36 +183,6 @@ function App() {
               imageSrc="images/waterme.png"
               projectLink="/project/3"
             />
-            <AnimateCard
-              name="TypeWeather"
-              description="TypeWeather é um aplicativo de previsão do tempo para planejar seu dia, foi convertido de JavaScript (JS) para TypeScript (TS). É um projeto bônus da Rocketseat."
-              imageSrc="images/typeweather/desktop/Desktop_Busca.png"
-              projectLink="/project/4"
-            />
-            <AnimateCard
-              name="Calculator"
-              description="Projeto pessoal focado na criação de uma calculadora responsiva seguindo a abordagem 'Mobile First'. A calculadora oferece funcionalidades básicas de cálculo."
-              imageSrc="images/calculator/Desktop_dark.png"
-              projectLink="/project/5"
-            />
-            <AnimateCard
-              name="FocusTimer"
-              description="Projeto desenvolvido durante o curso Explorer da Rocketseat, no módulo de Avançando na programação WEB com JavaScript, para construirmos um timer."
-              imageSrc="images/focustimer/FocusTimer.png"
-              projectLink="/project/6"
-            />
-            <AnimateCard
-              name="IMC"
-              description="Projeto de um aplicativo de cálculo do Índice de Massa Corporal (IMC). O foco foi na implementação funcional que permitisse aos usuários calcular seu IMC, para avaliar a relação entre peso e altura."
-              imageSrc="images/imc/preview.png"
-              projectLink="/project/7"
-            />
-            <AnimateCard
-              name="Jogo da Advinhação"
-              description="O objetivo central foi implementar uma aplicação interativa que desafia os usuários a adivinharem um número aleatório no intervalo de 0 a 10, escolhido pelo sistema."
-              imageSrc="images/jogo_da_advinhacao/Screen1.png"
-              projectLink="/project/8"
-            />
           </div>
         </section>
 
@@ -221,38 +191,22 @@ function App() {
           <ContactForm />
           <ul className="social-media-home">
             <li>
-              <a
-                href="https://www.linkedin.com/in/lubernardino/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.linkedin.com/in/lubernardino/" target="_blank" rel="noreferrer">
                 <FaLinkedinIn size={30} />
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/LuBernardino"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://github.com/LuBernardino" target="_blank" rel="noreferrer">
                 <FaGithub size={30} />
               </a>
             </li>
             <li>
-              <a
-                href="https://www.twitch.tv/lubstar_"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.twitch.tv/lubstar_" target="_blank" rel="noreferrer">
                 <FaTwitch size={30} />
               </a>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/luanac.bernardino/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.instagram.com/luanac.bernardino/" target="_blank" rel="noreferrer">
                 <FaInstagram size={30} />
               </a>
             </li>
