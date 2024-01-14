@@ -11,15 +11,31 @@ import LuanaBernardinoPdf from "./CV_Luana_Bernardino_Full_Stack_Web_Developer.p
 
 import { TbLetterH } from "react-icons/tb";
 import { BsBoxArrowRight, BsLayoutWtf } from "react-icons/bs";
-import { FaPencilAlt, FaCode, FaBus, FaLaptopCode, FaLinkedinIn, FaGithub, FaTwitch, FaInstagram, FaDiscord } from "react-icons/fa";
+import {
+  FaPencilAlt,
+  FaCode,
+  FaBus,
+  FaLaptopCode,
+  FaLinkedinIn,
+  FaGithub,
+  FaTwitch,
+  FaInstagram,
+  FaDiscord,
+} from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { SiStarship } from "react-icons/si";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
 
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-
   return (
     <div>
       <Navbar />
@@ -64,22 +80,35 @@ function App() {
           <TitleAnchor title="ABOUT ME" sectionId="about" />
           <div className="section-photo">
             <p>
-              Sou uma <span>Desenvolvedora Full Stack</span> com formação em <span>Arquitetura</span>, Brasileira que atualmente reside em Lisboa, Portugal. 
-              Minha jornada profissional reflete uma migração de carreira, com ênfase na importância do design 
-              visual e funcional no desenvolvimento de produtos. Atualmente, meu foco está no universo das 
-              aplicações web, utilizando ferramentas como <span>Ruby on Rails, Javascript, SASS, Bootstrap e React.</span>
-              <br/>
-              <br/>
-              ▪️ Comprometida em <span>criar experiências</span> online excepcionais e funcionais, minha paixão pela arquitetura influencia 
-              minha abordagem, valorizando tanto a estética quanto a usabilidade.
-              <br/>
-              <br/>
-              ▪️Além do desenvolvimento web, sou apaixonada por <span>Filmes</span>, Gosto de explorar diferentes gêneros cinematográficos, 
-              desde clássicos até produções contemporâneas com destaque para filmes de <span>Animação.</span> <span>Animes e Mangás</span>, Tenho uma 
-              profunda apreciação pela animação japonesa e pela forma única de contar histórias encontrada nos mangás. 
-              A riqueza das narrativas, os personagens envolventes e a variedade de estilos artísticos sempre me fascinam. 
-              <span> Jogos</span>, aprecio também a criatividade envolvida no design de jogos e a maneira como eles proporcionam <span>experiências 
-              imersivas.</span> No meu tempo livre costumo também, estudar e fazer <span>projetos pessoais</span> afim de melhorar meus conhecimentos técnicos.
+              Sou uma <span>Desenvolvedora Full Stack</span> com formação em{" "}
+              <span>Arquitetura</span>, Brasileira que atualmente reside em
+              Lisboa, Portugal. Minha jornada profissional reflete uma migração
+              de carreira, com ênfase na importância do design visual e
+              funcional no desenvolvimento de produtos. Atualmente, meu foco
+              está no universo das aplicações web, utilizando ferramentas como{" "}
+              <span>Ruby on Rails, Javascript, SASS, Bootstrap e React.</span>
+              <br />
+              <br />
+              ▪️ Comprometida em <span>criar experiências</span> online
+              excepcionais e funcionais, minha paixão pela arquitetura
+              influencia minha abordagem, valorizando tanto a estética quanto a
+              usabilidade.
+              <br />
+              <br />
+              ▪️Além do desenvolvimento web, sou apaixonada por{" "}
+              <span>Filmes</span>, Gosto de explorar diferentes gêneros
+              cinematográficos, desde clássicos até produções contemporâneas com
+              destaque para filmes de <span>Animação.</span>{" "}
+              <span>Animes e Mangás</span>, Tenho uma profunda apreciação pela
+              animação japonesa e pela forma única de contar histórias
+              encontrada nos mangás. A riqueza das narrativas, os personagens
+              envolventes e a variedade de estilos artísticos sempre me
+              fascinam.
+              <span> Jogos</span>, aprecio também a criatividade envolvida no
+              design de jogos e a maneira como eles proporcionam{" "}
+              <span>experiências imersivas.</span> No meu tempo livre costumo
+              também, estudar e fazer <span>projetos pessoais</span> afim de
+              melhorar meus conhecimentos técnicos.
               {/* <button className="btn-education">My Education and certifications</button> */}
             </p>
             <img src="images\photo.png" alt="" />
@@ -106,35 +135,91 @@ function App() {
             />
           </div>
 
-          <div className="title">
+          {/* SWIPER */}
+          <div className="experience">
             <h3>Experience</h3>
+            <div className="arrow-experience">
+            <IoIosArrowBack className="prev" />
+            <IoIosArrowForward className="next"/>
+            </div>
           </div>
           {/* Experience card */}
-          <div className="experience">
-            <ExperienceCard
-              title="Le Wagon"
-              date="JUL 2023 - SET 2023"
-              subtitle="Full Stack Developer"
-              description="Desenvolvi uma aplicação web em equipe, uma plataforma que lembra quando regar plantas, utilizando HTML, Scss, Javascript, Bootstrap, Ruby e Rails e Heroku."
-              icon={FaBus}
-            />
 
-            <ExperienceCard
-              title="Hirota Food"
-              date="SET 2020 - JUN 2022"
-              subtitle="Architect"
-              description="Atuei como Arquiteta, desenvolvendo projetos arquitetônicos e garantindo a implementação dos padrões estabelecidos pela empresa."
-              icon={TbLetterH}
-            />
+          {/* <div className="experience"> */}
+          <div className="swiper-container ">
+            <Swiper
+              navigation={{
+                prevEl: '.prev',
+                nextEl: '.next',
+              }}
+              // slidesPerView={3}
+              spaceBetween={30}
+              modules={[Navigation]}
+              breakpoints={{
+                400: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                850: {
+                  slidesPerView: 3,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <ExperienceCard
+                  title="Future of Work Lisboa"
+                  date="OCT 2023 - DEC 2023"
+                  subtitle="Junior Full-Stack Web Developer"
+                  description="Desenvolvi uma aplicação web para o programa StepByTech. Como um dos finalistas fui convidada a construir seu novo aplicativo web. Trabalhei em uma equipe de 4 desenvolvedores, projetando e codificando usando Ruby on Rails."
+                  icon={SiStarship}
+                />
+              </SwiperSlide>
 
-            <ExperienceCard
-              title="LB Arquitetura"
-              date="JAN 2018 - AGO 2020"
-              subtitle="Archtech"
-              description="Desenvolvi projetos arquitetônicos, complementares e urbanísticos, além de trabalhar em modelagem 3D, design de interiores, e animação 3D."
-              icon={BsLayoutWtf}
-            />
+              <SwiperSlide>
+                <ExperienceCard
+                  title="Le Wagon"
+                  date="JUL 2023 - SET 2023"
+                  subtitle="Full Stack Developer"
+                  description="Trabalhei em uma equipe de 4 desenvolvedores, desenvolvemos numa aplicação web que lembra quando regar as tuas plantas e como cuidar delas. As tecnologias utilizadas foram HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku e uso de APIs."
+                  icon={FaBus}
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <ExperienceCard
+                  title="Future of Work Lisboa"
+                  date="MAY 2023 - JUN 2023"
+                  subtitle="Candidate StepByTech Program"
+                  description="Participei do programa StepByTech, um programa 100% gratuito focado no desenvolvimento das habilidades do futuro. Fui uma dos 5 vencedores finais de uma bolsa para frequentar a Web Bootcamp de desenvolvimento no Le Wagon, Lisboa."
+                  icon={SiStarship}
+                />
+              </SwiperSlide>
+              
+              <SwiperSlide>
+                <ExperienceCard
+                  title="Hirota Food"
+                  date="SET 2020 - JUN 2022"
+                  subtitle="Architect"
+                  description="Arquiteta responsável pela elaboração e execução de projetos arquitetônicos de reformas, ampliações e novas construções. Suporte a projetistas e engenheiros externos para obras em andamento. Trabalhando num time de 3 profissionais e com diversos setores."
+                  icon={TbLetterH}
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <ExperienceCard
+                  title="LB Arquitetura"
+                  date="JAN 2018 - AGO 2020"
+                  subtitle="Archtech"
+                  description="Arquiteta responsável por desenvolver projetos arquitetônicos, complementares, urbanísticos e aprovação junto a prefeitura. Elaborava modelos 3D de design de interiores e mobiliários de acordo com cada cliente."
+                  icon={BsLayoutWtf}
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
+
+          {/* </div> */}
 
           {/* Progress bar */}
           <div className="title">
@@ -191,22 +276,38 @@ function App() {
           <ContactForm />
           <ul className="social-media-home">
             <li>
-              <a href="https://www.linkedin.com/in/lubernardino/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/lubernardino/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedinIn size={30} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/LuBernardino" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/LuBernardino"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub size={30} />
               </a>
             </li>
             <li>
-              <a href="https://www.twitch.tv/lubstar_" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.twitch.tv/lubstar_"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaTwitch size={30} />
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/luanac.bernardino/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/luanac.bernardino/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaInstagram size={30} />
               </a>
             </li>
