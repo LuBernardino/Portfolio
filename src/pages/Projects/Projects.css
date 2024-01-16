@@ -1,88 +1,150 @@
 .square-purple {
-    width: 900px;
-    height: 560px;
-    border-radius: 2px;
-    border: 8px solid rgba(185, 73, 255, 0.80);
-    box-shadow: 0px 1px 20px var(--col-purple);
-    position: absolute;
-    top: 210px;
-    right: 140px;
-    z-index: -1;
+  width: 900px;
+  height: 560px;
+  border-radius: 2px;
+  border: 8px solid rgba(185, 73, 255, 0.8);
+  box-shadow: 0px 1px 20px var(--col-purple);
+  position: absolute;
+  top: 210px;
+  right: 140px;
+  z-index: -1;
 }
 
 .project-container {
-    padding: 20px 150px 32px 150px;
+  padding: 20px 150px 32px 150px;
 }
 
 .containers {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 32px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 32px;
 }
 
 .section-links-project {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .project-link-deploy {
-    border: 1px solid var(--col-purple);
-    padding: 8px 85px;
-    border-radius: 8px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s;
-    cursor: pointer;
-  
-    &:hover {
-      background-color: var(--col-purple);
-      box-shadow: 0px 1px 20px var(--col-purple);
-      transform: scale(1.05);
-      color: #FFF;
-      /* transform: translateY(-1px); */
-    }
+  border: 1px solid var(--col-purple);
+  padding: 8px 85px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--col-purple);
+    box-shadow: 0px 1px 20px var(--col-purple);
+    transform: scale(1.05);
+    color: #fff;
+    /* transform: translateY(-1px); */
+  }
 }
 
 .btn-links {
-    border: 1px solid var(--col-purple);
-    padding: 8px 12px;
-    border-radius: 8px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s;
-    cursor: pointer;
-  
-    &:hover {
-      background-color: var(--col-purple);
-      box-shadow: 0px 1px 20px var(--col-purple);
-      transform: scale(1.05);
-      color: #FFF;
-      /* transform: translateY(-1px); */
-    }
+  border: 1px solid var(--col-purple);
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--col-purple);
+    box-shadow: 0px 1px 20px var(--col-purple);
+    transform: scale(1.05);
+    color: #fff;
+    /* transform: translateY(-1px); */
+  }
 }
 
 .project-txt {
-    width: 380px;
-    text-align: justify;
-    margin-top: 20px;
+  width: 380px;
+  text-align: justify;
+  margin-top: 20px;
 }
 
 .list-icons {
-    display: flex;
-    gap: 10px;
-    margin: 32px 0;
-    max-width: 380px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  margin: 32px 0;
+  max-width: 380px;
+  flex-wrap: wrap;
 }
 
 .project-icon {
-    background-color: var(--col-dark-two);
-    padding: 15px 14px 10px 14px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    /* font-size: 10px; */
+  background-color: var(--col-dark-two);
+  padding: 15px 14px 10px 14px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  /* font-size: 10px; */
 
-    &:hover {
-        box-shadow: 0px 0px 20px 0px #B949FF;
-        transform: scale(1.1);
-    }
+  &:hover {
+    box-shadow: 0px 0px 20px 0px #b949ff;
+    transform: scale(1.1);
+  }
 }
+
+.project-details-images {
+  width: 98%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 10px;
+  /* position: absolute; */
+}
+
+.container-project-details {
+  display: flex;
+  margin-top: 20px;
+}
+
+.swiper-initialized {
+  position: relative;
+}
+
+.swiper-pagination {
+  position: absolute;
+  /* background-color: rgb(252, 164, 164); */
+  /* z-index: 1000; */
+  /* height: 20px; */
+  bottom: 40px !important;
+  transition: all 0.4s;
+  /* width: 100px; */
+}
+
+span.swiper-pagination-bullet-active {
+  background-color: var(--col-purple);
+  
+}
+
+span.swiper-pagination-bullet-active-prev-prev,
+span.swiper-pagination-bullet-active-prev,
+span.swiper-pagination-bullet-active-next,
+span.swiper-pagination-bullet-active-next-next {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .container-project-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper-pagination {
+    bottom: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .swiper-pagination {
+    bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+    .swiper-pagination {
+      bottom: 30px !important;
+    }
+  }
