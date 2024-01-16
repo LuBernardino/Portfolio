@@ -148,6 +148,10 @@ span {
   padding: 50px 0;
 }
 
+.content-home p span {
+  margin-left: 10px;
+}
+
 .content-home {
   margin-top: 120px;
 }

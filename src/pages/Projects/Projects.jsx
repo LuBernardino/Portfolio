@@ -1,8 +1,9 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+
 import "./Projects.css";
 import projects from "../../data/projects.json";
-import Navbar from "../../components/Navbar/Navbar";
+// import Navbar from "../../components/Navbar/Navbar";
 import TitleAnchor from "../../components/TitleAnchor/TitleAnchor";
 import DynamicIcon from "../../components/DynamicIcon/DynamicIcon";
 import BackgroundStar from "../../components/BackgroundStar/BackgroundStar";
@@ -10,7 +11,6 @@ import { FaGithub, FaFigma } from 'react-icons/fa';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import "swiper/css";
-// import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar } from "swiper/modules";
@@ -19,10 +19,19 @@ export default function Projects() {
   const { id } = useParams();
   const projectDetail = projects.filter((project) => project.id === Number.parseInt(id))[0];
 
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate('/');
+  };
+
   if (projectDetail) {
     return (
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
+        <button className="btn-back" onClick={handleBack}>
+          <IoIosArrowBack /> Voltar
+        </button>
         <BackgroundStar />
         <main className="project-container">
           <TitleAnchor title={projectDetail.title} sectionId="projects" />

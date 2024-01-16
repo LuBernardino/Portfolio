@@ -11,7 +11,7 @@
 }
 
 .project-container {
-  padding: 20px 150px 32px 150px;
+  padding: 32px 150px;
 }
 
 .containers {
@@ -38,7 +38,6 @@
     box-shadow: 0px 1px 20px var(--col-purple);
     transform: scale(1.05);
     color: #fff;
-    /* transform: translateY(-1px); */
   }
 }
 
@@ -55,14 +54,37 @@
     box-shadow: 0px 1px 20px var(--col-purple);
     transform: scale(1.05);
     color: #fff;
-    /* transform: translateY(-1px); */
+  }
+}
+
+.btn-back {
+  border: 1px solid var(--col-purple);
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--col-purple);
+  display: flex;
+  gap: 10px;
+
+  position: relative;
+  top: 30px;
+  left: 150px;
+
+  &:hover {
+    background-color: var(--col-purple);
+    box-shadow: 0px 1px 20px var(--col-purple);
+    transform: scale(1.05);
+    color: #fff;
   }
 }
 
 .project-txt {
   width: 380px;
   text-align: justify;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .list-icons {
@@ -79,7 +101,6 @@
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  /* font-size: 10px; */
 
   &:hover {
     box-shadow: 0px 0px 20px 0px #b949ff;
@@ -89,10 +110,10 @@
 
 .project-details-images {
   width: 98%;
-  height: 95%;
-  object-fit: cover;
+  max-height: 500px;
   border-radius: 10px;
-  /* position: absolute; */
+  object-position: top;
+  object-fit: cover;
 }
 
 .container-project-details {
@@ -106,17 +127,12 @@
 
 .swiper-pagination {
   position: absolute;
-  /* background-color: rgb(252, 164, 164); */
-  /* z-index: 1000; */
-  /* height: 20px; */
   bottom: 40px !important;
   transition: all 0.4s;
-  /* width: 100px; */
 }
 
 span.swiper-pagination-bullet-active {
   background-color: var(--col-purple);
-  
 }
 
 span.swiper-pagination-bullet-active-prev-prev,
@@ -144,7 +160,17 @@ span.swiper-pagination-bullet-active-next-next {
 }
 
 @media screen and (max-width: 1100px) {
-    .swiper-pagination {
-      bottom: 30px !important;
-    }
+  .swiper-pagination {
+    bottom: 30px !important;
   }
+}
+
+@media (max-width: 850px) {
+  .project-container {
+    padding: 32px 20px;
+  }
+
+  .btn-back {
+    left: 20px;
+  }
+}

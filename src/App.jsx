@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar/Navbar";
 import ServiceCard from "./components/ServiceCard/ServiceCard";
 import TitleAnchor from "./components/TitleAnchor/TitleAnchor";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
-import ProjectCard from "./components/ProjectCard/ProjectCard";
 import AnimateCard from "./components/AnimateCard/AnimateCard.jsx";
 import ContactForm from "./components/ContactForm/ContactForm";
 import BackgroundStar from "./components/BackgroundStar/BackgroundStar";
@@ -10,7 +9,9 @@ import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import LuanaBernardinoPdf from "./CV_Luana_Bernardino_Full_Stack_Web_Developer.pdf";
 
 import { TbLetterH } from "react-icons/tb";
+import { SiStarship } from "react-icons/si";
 import { BsBoxArrowRight, BsLayoutWtf } from "react-icons/bs";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import {
   FaPencilAlt,
   FaCode,
@@ -22,16 +23,12 @@ import {
   FaInstagram,
   FaDiscord,
 } from "react-icons/fa";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { SiStarship } from "react-icons/si";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
 
 import "./App.css";
+import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import "swiper/css/navigation";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -59,8 +56,8 @@ function App() {
             </h1>
             <h5>I AM FULL-STACK WEB DEVELOPER</h5>
             <p>
-              From Lisbon, Portugal. I am a full stack developer committed to
-              developing attractive and functional interfaces for the web.
+            From Lisbon, Portugal. I am a full stack developer committed to
+              developing attractive and functional interfaces for the web.<span><FaCode /></span>
             </p>
             <button className="btn-cv">
               <a
@@ -109,7 +106,6 @@ function App() {
               <span>experiências imersivas.</span> No meu tempo livre costumo
               também, estudar e fazer <span>projetos pessoais</span> afim de
               melhorar meus conhecimentos técnicos.
-              {/* <button className="btn-education">My Education and certifications</button> */}
             </p>
             <img src="images\photo.png" alt="" />
           </div>
@@ -144,15 +140,12 @@ function App() {
             </div>
           </div>
           {/* Experience card */}
-
-          {/* <div className="experience"> */}
           <div className="swiper-container ">
             <Swiper
               navigation={{
                 prevEl: '.prev',
                 nextEl: '.next',
               }}
-              // slidesPerView={3}
               spaceBetween={30}
               modules={[Navigation]}
               breakpoints={{
@@ -218,8 +211,6 @@ function App() {
               </SwiperSlide>
             </Swiper>
           </div>
-
-          {/* </div> */}
 
           {/* Progress bar */}
           <div className="title">
