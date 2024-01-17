@@ -54,10 +54,13 @@ function App() {
                 BERNARDINO
               </span>
             </h1>
-            <h5>I AM FULL-STACK WEB DEVELOPER</h5>
+            <h5>I'M FULL-STACK WEB DEVELOPER</h5>
             <p>
-            From Lisbon, Portugal. I am a full stack developer committed to
-              developing attractive and functional interfaces for the web.<span><FaCode /></span>
+              I'm a Brazilian full stack developer currently residing in Lisbon, 
+              Portugal. Committed to creating attractive and functional interfaces 
+              for the web. My full stack approach allows me to develop complete 
+              solutions, from user interface design to efficient functionality 
+              implementation.<span><FaCode /></span>
             </p>
             <button className="btn-cv">
               <a
