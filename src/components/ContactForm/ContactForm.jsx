@@ -22,7 +22,7 @@ const ContactForm = () => {
 
     try {
       // Fazer a solicitação POST para o servidor
-      const response = await fetch(`${process.env.API_URL}/send-email`, {
+      const response = await fetch(`https://portifolioapi.netlify.app/send-email`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -31,7 +31,7 @@ const ContactForm = () => {
       });
 
       const data = await response.json();
-      console.log(data);
+      console.log(data)
     } catch (error) {
       console.error("Erro ao enviar formulário", error);
     }
