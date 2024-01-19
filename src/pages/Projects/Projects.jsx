@@ -30,7 +30,7 @@ export default function Projects() {
       <div>
         {/* <Navbar /> */}
         <button className="btn-back" onClick={handleBack}>
-          <IoIosArrowBack /> Voltar
+          <IoIosArrowBack /> Back
         </button>
         <BackgroundStar />
         <main className="project-container">
@@ -58,7 +58,7 @@ export default function Projects() {
               <div>
                 <div className="section-links-project">
                   <a className="project-link-deploy" href={projectDetail.link_deploy} target="_blank" rel="noopener noreferrer">
-                    Visite aqui !!
+                    Visit here !!
                   </a>
                   <a className="btn-links" href={projectDetail.link_github} target="_blank" rel="noopener noreferrer">
                     <FaGithub />

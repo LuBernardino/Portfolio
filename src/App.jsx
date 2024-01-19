@@ -96,9 +96,9 @@ function App() {
                <br />
                <br />
                ▪️ In addition to web development, I'm passionate about{" "}
-               <span>Films</span>, I like exploring different genres
-               cinematographic films, from classics to contemporary productions with
-               emphasis on <span>Animation films.</span>{" "}
+               <span>Movies</span>, I like exploring different genres
+               cinematographic movies, from classics to contemporary productions with
+               emphasis on <span>Animation movies.</span>{" "}
                <span>Anime and Manga</span>, I have a deep appreciation for
                Japanese animation and the unique way of telling stories
                found in the manga. The richness of the narratives, the characters
@@ -177,7 +177,7 @@ function App() {
                 <ExperienceCard
                   title="Le Wagon"
                   date="JUL 2023 - SET 2023"
-                  subtitle="Full Stack Developer"
+                  subtitle="Junior Full Stack Developer"
                   description="I worked in a team of 4 developers, we developed a web application that remembers when to water your plants and how to care for them. The technologies used were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
                   icon={FaBus}
                 />
