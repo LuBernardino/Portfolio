@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
 
-require('dotenv').config();
-
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
