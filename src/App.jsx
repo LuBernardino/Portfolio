@@ -56,11 +56,11 @@ function App() {
             </h1>
             <h5>I'M FULL-STACK WEB DEVELOPER</h5>
             <p>
-              I'm a Brazilian full stack developer currently residing in Lisbon, 
-              Portugal. Committed to creating attractive and functional interfaces 
-              for the web. My full stack approach allows me to develop complete 
-              solutions, from user interface design to efficient functionality 
-              implementation.<span><FaCode /></span>
+              Sou uma desenvolvedora full stack brasileira que atualmente residente em Lisboa,
+              Portugal. Comprometida em criar interfaces atraentes e funcionais
+              para a web. Minha abordagem full stack me permite desenvolver soluções completas
+              soluções, desde o design da interface do usuário até a funcionalidade eficiente
+              implementação.<span><FaCode /></span>
             </p>
             <button className="btn-cv">
               <a
