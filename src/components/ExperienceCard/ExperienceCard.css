@@ -63,6 +63,10 @@
     color: var(--col-gray);
 }
 
+.description-txt {
+    min-height: 8em;
+}
+
 .description-txt p {
     font-size: 14px;
     padding: 12px;

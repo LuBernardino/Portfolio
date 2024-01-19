@@ -3,24 +3,24 @@
         "id": 1,
         "image": [
             {
-                "description": "blabla",
+                "description": "animeart project image",
                 "source": "/images/animeart/01.png"
             },
             {
-                "description": "blabla",
+                "description": "animeart project image",
                 "source": "/images/animeart/02.png"
             },
             {
-                "description": "blabla",
+                "description": "animeart project image",
                 "source": "/images/animeart/03.png"
             },
             {
-                "description": "blabla",
+                "description": "animeart project image",
                 "source": "/images/animeart/04.png"
             }
         ],
         "title": "ANIMEART",
-        "description": "Criei uma landing page para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a Le Wagon School. Utilizei HTML, CSS, JavaScript e a API OpenAI. Este projeto rendeu uma bolsa de estudos para o curso de web development na escola Le Wagon",
+        "description": "I created a landing page for the StepByTech technological program, organized by Lisbon City Council in partnership with Le Wagon School. I used HTML, CSS, JavaScript and the OpenAI API. This project resulted in a scholarship for the web development course at Le Wagon school",
         "stack": [
             "FaHtml5",
             "IoLogoCss3",
@@ -37,36 +37,36 @@
         "id": 2,
         "image": [
             {
-                "description": "homepage usuário comum",
+                "description": "homepage usuário comum food explorer project image",
                 "source": "/images/food_explorer/Home_user.png"
             },
             {
-                "description": "sign in page",
+                "description": "sign in page food explorer project image",
                 "source": "/images/food_explorer/Sign_in.png"
             },
             {
-                "description": "Sign up page",
+                "description": "Sign up page food explorer project image",
                 "source": "/images/food_explorer/Sign_up.png"
             },
             {
-                "description": "blabla",
+                "description": "food explorer project image",
                 "source": "/images/food_explorer/Home_admin.png"
             },
             {
-                "description": "blabla",
+                "description": "food explorer project image",
                 "source": "/images/food_explorer/detail_dish.png"
             },
             {
-                "description": "blabla",
+                "description": "food explorer project image",
                 "source": "/images/food_explorer/Add_dish.jpeg"
             },
             {
-                "description": "blabla",
+                "description": "food explorer project image",
                 "source": "/images/food_explorer/Edit_dish.jpeg"
             }
         ],
         "title": "FOOD EXPLORER",
-        "description": "Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício. Utilizei as seguintes tecnologias: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Autenticação, Upload de imagens e API Restful.",
+        "description": "I developed the final project for Rocketseat's Explorer course, 'Food Explorer'. It is an application that simulates an interactive menu for a fictional restaurant. I used the following technologies: ReactJS, HTML, CSS, JavaScript, Vite, Axios, Node.js, Express, SQLite, Knex.js, JWT, Authentication, Image upload and Restful API.",
         "stack": [
             "FaHtml5",
             "IoLogoCss3",
@@ -79,36 +79,36 @@
             "DiGit",
             "FaGithub"
         ],
-        "link_deploy": "",
-        "link_github": "",
-        "link_figma": ""
+        "link_deploy": "https://food-explorer-luana.netlify.app/",
+        "link_github": "https://github.com/LuBernardino/food_explorer_frontend",
+        "link_figma": "https://www.figma.com/file/tudj2tKleZpJGTd1valU78/food-explorer-v2-(Community)?type=design&node-id=5-980&mode=design"
     },
     {
         "id": 3,
         "image": [
             {
-                "description": "blabla",
+                "description": "waterme project image",
                 "source": "/images/waterme/mobile_full/waterme_01.png"
             },
             {
-                "description": "blabla",
+                "description": "waterme project image",
                 "source": "/images/waterme/mobile_full/waterme_02.png"
             },
             {
-                "description": "blabla",
+                "description": "waterme project image",
                 "source": "/images/waterme/mobile_full/waterme_03.png"
             },
             {
-                "description": "blabla",
+                "description": "waterme project image",
                 "source": "/images/waterme/mobile_full/waterme_04.png"
             },
             {
-                "description": "blabla",
+                "description": "waterme project image",
                 "source": "/images/waterme/mobile_full/waterme_05.png"
             }
         ],
         "title": "WATERME",
-        "description": "Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas. As tecnologias utilizadas incluem HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus e Heroku, além do uso de APIs.",
+        "description": "I participated in the development of a web application in a team (4 people) called 'Waterme'. This application aims to remind you when to water your plants and teach you how to care for them. The technologies used include HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus and Heroku, in addition to the use of APIs.",
         "stack": [
             "FaHtml5",
             "IoLogoCss3",
@@ -122,7 +122,7 @@
             "FaGithub"
         ],
         "link_deploy": "http://www.appwater.me/",
-        "link_github": "",
+        "link_github": "https://github.com/Margarida021/WaterMe",
         "link_figma": ""
     }
 ]

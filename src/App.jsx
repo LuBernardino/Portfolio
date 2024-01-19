@@ -56,11 +56,11 @@ function App() {
             </h1>
             <h5>I'M FULL-STACK WEB DEVELOPER</h5>
             <p>
-              Sou uma desenvolvedora full stack brasileira que atualmente residente em Lisboa,
-              Portugal. Comprometida em criar interfaces atraentes e funcionais
-              para a web. Minha abordagem full stack me permite desenvolver soluções completas
-              soluções, desde o design da interface do usuário até a funcionalidade eficiente
-              implementação.<span><FaCode /></span>
+              I'm a Brazilian full stack developer currently residing in Lisbon, 
+              Portugal. Committed to creating attractive and functional interfaces 
+              for the web. My full stack approach allows me to develop complete 
+              solutions, from user interface design to efficient functionality 
+              implementation.<span><FaCode /></span>
             </p>
             <button className="btn-cv">
               <a
@@ -80,35 +80,35 @@ function App() {
           <TitleAnchor title="ABOUT ME" sectionId="about" />
           <div className="section-photo">
             <p>
-              Sou uma <span>Desenvolvedora Full Stack</span> com formação em{" "}
-              <span>Arquitetura</span>, Brasileira que atualmente reside em
-              Lisboa, Portugal. Minha jornada profissional reflete uma migração
-              de carreira, com ênfase na importância do design visual e
-              funcional no desenvolvimento de produtos. Atualmente, meu foco
-              está no universo das aplicações web, utilizando ferramentas como{" "}
-              <span>Ruby on Rails, Javascript, SASS, Bootstrap e React.</span>
-              <br />
-              <br />
-              ▪️ Comprometida em <span>criar experiências</span> online
-              excepcionais e funcionais, minha paixão pela arquitetura
-              influencia minha abordagem, valorizando tanto a estética quanto a
-              usabilidade.
-              <br />
-              <br />
-              ▪️Além do desenvolvimento web, sou apaixonada por{" "}
-              <span>Filmes</span>, Gosto de explorar diferentes gêneros
-              cinematográficos, desde clássicos até produções contemporâneas com
-              destaque para filmes de <span>Animação.</span>{" "}
-              <span>Animes e Mangás</span>, Tenho uma profunda apreciação pela
-              animação japonesa e pela forma única de contar histórias
-              encontrada nos mangás. A riqueza das narrativas, os personagens
-              envolventes e a variedade de estilos artísticos sempre me
-              fascinam.
-              <span> Jogos</span>, aprecio também a criatividade envolvida no
-              design de jogos e a maneira como eles proporcionam{" "}
-              <span>experiências imersivas.</span> No meu tempo livre costumo
-              também, estudar e fazer <span>projetos pessoais</span> afim de
-              melhorar meus conhecimentos técnicos.
+            I'm a <span>Full Stack Developer</span> with training in {" "}
+               <span>Architecture</span>, Brazilian who currently resides in
+               Lisbon, Portugal. My professional journey reflects a migration
+               career path, with an emphasis on the importance of visual design and
+               functional in product development. Currently, my focus
+               is in the world of web applications, using tools like{" "}
+               <span>Ruby on Rails, Javascript, SASS, Bootstrap and React.</span>
+               <br />
+               <br />
+               ▪️ Committed to <span>creating experiences</span> online
+               exceptional and functional, my passion for architecture
+               influences my approach, valuing both aesthetics and
+               usability.
+               <br />
+               <br />
+               ▪️ In addition to web development, I'm passionate about{" "}
+               <span>Films</span>, I like exploring different genres
+               cinematographic films, from classics to contemporary productions with
+               emphasis on <span>Animation films.</span>{" "}
+               <span>Anime and Manga</span>, I have a deep appreciation for
+               Japanese animation and the unique way of telling stories
+               found in the manga. The richness of the narratives, the characters
+               engaging and the variety of artistic styles always appeals to me.
+               fascinate.
+               <span> Games</span>, I also appreciate the creativity involved in
+               game design and the way they provide{" "}
+               <span>immersive experiences.</span> In my free time I usually
+               also, study and do <span>personal projects</span> in order to
+               improve my technical knowledge.
             </p>
             <img src="images\photo.png" alt="" />
           </div>
@@ -119,17 +119,17 @@ function App() {
           <div className="services">
             <ServiceCard
               title="Web Design with Figma"
-              description="Crio designs visualmente cativantes no Figma, integrando criatividade e funcionalidade para entregar interfaces atraentes e eficazes."
+              description="I create visually captivating designs in Figma, integrating creativity and functionality to deliver attractive and effective interfaces."
               icon={FaPencilAlt}
             />
             <ServiceCard
               title="Front-End Development"
-              description="Utilizo HTML, CSS e JavaScript para criar interfaces responsivas e envolventes, garantindo uma experiência do usuário intuitiva e interativa com foco na tradução de designs visualmente atraentes."
+              description="I use HTML, CSS and JavaScript to create responsive and engaging interfaces, ensuring an intuitive and interactive user experience with a focus on translating visually appealing designs."
               icon={FaCode}
             />
             <ServiceCard
               title="Web Development"
-              description="Desenvolvedora full stack especializada em ReactJS, Node.js e Ruby on Rails, proporcionando soluções completas e eficientes para aplicações web modernas e escaláveis."
+              description="Full stack developer specialized in ReactJS, Node.js and Ruby on Rails, providing complete and efficient solutions for modern and scalable web applications."
               icon={FaLaptopCode}
             />
           </div>
@@ -168,7 +168,7 @@ function App() {
                   title="Future of Work Lisboa"
                   date="OCT 2023 - DEC 2023"
                   subtitle="Junior Full-Stack Web Developer"
-                  description="Desenvolvi uma aplicação web para o programa StepByTech. Como um dos finalistas fui convidada a construir seu novo aplicativo web. Trabalhei em uma equipe de 4 desenvolvedores, projetando e codificando usando Ruby on Rails."
+                  description="I developed a web application for the StepByTech program. As one of the finalists I was invited to build their new web application. I worked in a team of 4 developers, designing and coding using Ruby on Rails."
                   icon={SiStarship}
                 />
               </SwiperSlide>
@@ -178,7 +178,7 @@ function App() {
                   title="Le Wagon"
                   date="JUL 2023 - SET 2023"
                   subtitle="Full Stack Developer"
-                  description="Trabalhei em uma equipe de 4 desenvolvedores, desenvolvemos numa aplicação web que lembra quando regar as tuas plantas e como cuidar delas. As tecnologias utilizadas foram HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku e uso de APIs."
+                  description="I worked in a team of 4 developers, we developed a web application that remembers when to water your plants and how to care for them. The technologies used were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
                   icon={FaBus}
                 />
               </SwiperSlide>
@@ -188,7 +188,7 @@ function App() {
                   title="Future of Work Lisboa"
                   date="MAY 2023 - JUN 2023"
                   subtitle="Candidate StepByTech Program"
-                  description="Participei do programa StepByTech, um programa 100% gratuito focado no desenvolvimento das habilidades do futuro. Fui uma dos 5 vencedores finais de uma bolsa para frequentar a Web Bootcamp de desenvolvimento no Le Wagon, Lisboa."
+                  description="I participated in the StepByTech program, a 100% free program focused on developing the skills of the future. I was one of the 5 final winners of a scholarship to attend the Web Development Bootcamp at Le Wagon, Lisbon."
                   icon={SiStarship}
                 />
               </SwiperSlide>
@@ -198,7 +198,7 @@ function App() {
                   title="Hirota Food"
                   date="SET 2020 - JUN 2022"
                   subtitle="Architect"
-                  description="Arquiteta responsável pela elaboração e execução de projetos arquitetônicos de reformas, ampliações e novas construções. Suporte a projetistas e engenheiros externos para obras em andamento. Trabalhando num time de 3 profissionais e com diversos setores."
+                  description="Architect responsible for preparing and executing architectural projects for renovations, expansions and new constructions. Support to external designers and engineers for works in progress. Working in a team of 3 professionals and with different sectors."
                   icon={TbLetterH}
                 />
               </SwiperSlide>
@@ -208,7 +208,7 @@ function App() {
                   title="LB Arquitetura"
                   date="JAN 2018 - AGO 2020"
                   subtitle="Archtech"
-                  description="Arquiteta responsável por desenvolver projetos arquitetônicos, complementares, urbanísticos e aprovação junto a prefeitura. Elaborava modelos 3D de design de interiores e mobiliários de acordo com cada cliente."
+                  description="Architect responsible for developing architectural, complementary and urban projects and approval by the city hall. I created 3D models of interior design and furniture according to each client."
                   icon={BsLayoutWtf}
                 />
               </SwiperSlide>
@@ -246,19 +246,19 @@ function App() {
           <div className="projects-div">
             <AnimateCard
               name="Animeart"
-              description="Landing page desenvolvida para o programa tecnológico StepByTech, organizado pela Câmara Municipal de Lisboa em parceria com a escola Le Wagon Lisboa."
+              description="Landing page developed for the StepByTech technological program, organized by Lisbon City Council in partnership with the Le Wagon Lisboa school."
               imageSrc="images/animeart/01.png"
               projectLink="/project/1"
             />
             <AnimateCard
               name="Food Explorer"
-              description="Desenvolvi o projeto final do curso Explorer da Rocketseat, o 'Food Explorer'. Trata-se de um aplicativo que simula um menu interativo para um restaurante fictício."
+              description="I developed the final project for Rocketseat's Explorer course, 'Food Explorer'. It is an application that simulates an interactive menu for a fictional restaurant."
               imageSrc="images/food_explorer/Home_admin.png"
               projectLink="/project/2"
             />
             <AnimateCard
               name="Waterme"
-              description="Participei do desenvolvimento de uma aplicação web em equipe (4 pessoas) chamada 'Waterme'. Essa aplicação tem como propósito lembrar quando regar as plantas e ensinar como cuidar delas."
+              description="I participated in the development of a web application in a team (4 people) called 'Waterme'. This application aims to remind you when to water your plants and teach you how to care for them."
               imageSrc="images/waterme.png"
               projectLink="/project/3"
             />
