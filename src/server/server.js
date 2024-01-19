@@ -2,13 +2,15 @@ const express = require("express");
 const cors = require('cors')
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
+const serverless = require("serverless-http");
+
 require('dotenv').config();
 
 const app = express();
-const PORT = 3001; // Escolha uma porta adequada
+const PORT = 443;
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin:  process.env.APP_URL
 }));
 
 app.use(bodyParser.json());
@@ -25,15 +27,10 @@ app.post("/send-email", async (req, res) => {
     },
   });
 
-  console.log(process.env.PROVIDER);
-  console.log(process.env.EMAIL);
-  console.log(process.env.EMAIL_PASSWORD);
-
-
   // Configurar o e-mail de destino (seu e-mail)
   const mailOptions = {
-    from: "lubernardino@outlook.com.br",
-    to: "lubernardino@outlook.com.br",
+    from: process.env.EMAIL,
+    to: process.env.EMAIL,
     subject: title,
     text: `Nome: ${name}\nEmail: ${email}\nMensagem: ${text}`,
   };
@@ -52,3 +49,6 @@ app.post("/send-email", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+app.use('/.netlify/functions/api', router);
+module.exports.handler = serverless(app);

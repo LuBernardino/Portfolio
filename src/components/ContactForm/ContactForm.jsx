@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
 
+require('dotenv').config();
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,7 +24,7 @@ const ContactForm = () => {
 
     try {
       // Fazer a solicitação POST para o servidor
-      const response = await fetch("http://localhost:3001/send-email", {
+      const response = await fetch(`${process.env.API_URL}/send-email`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
