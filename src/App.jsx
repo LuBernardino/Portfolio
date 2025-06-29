@@ -9,7 +9,7 @@ import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import LuanaBernardinoPdf from "./CV_Luana_Bernardino_Full_Stack_Web_Developer.pdf";
 
 import { TbLetterH } from "react-icons/tb";
-import { SiStarship } from "react-icons/si";
+import { SiStarship, SiExpertsexchange } from "react-icons/si";
 import { BsBoxArrowRight, BsLayoutWtf } from "react-icons/bs";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import {
@@ -165,9 +165,18 @@ function App() {
             >
               <SwiperSlide>
                 <ExperienceCard
+                  title="Escrita Digital"
+                  date="FEB 2023 - Present"
+                  subtitle="Frontend Developer"
+                  description="Preparation and design of layouts using Figma, componentization for creating reusable and modular components, and frontend development with Blazor Server for interactive web applications, utilizing C# and .NET to enhance consistency and modularity."
+                  icon={SiExpertsexchange}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ExperienceCard
                   title="Future of Work Lisboa"
                   date="OCT 2023 - DEC 2023"
-                  subtitle="Junior Full-Stack Web Developer"
+                  subtitle="Full-Stack Web Developer"
                   description="I developed a web application for the StepByTech program. As one of the finalists I was invited to build their new web application. I worked in a team of 4 developers, designing and coding using Ruby on Rails."
                   icon={SiStarship}
                 />
@@ -177,7 +186,7 @@ function App() {
                 <ExperienceCard
                   title="Le Wagon"
                   date="JUL 2023 - SET 2023"
-                  subtitle="Junior Full Stack Developer"
+                  subtitle="Full Stack Developer"
                   description="I worked in a team of 4 developers, we developed a web application that remembers when to water your plants and how to care for them. The technologies used were HTML, Scss, Javascript, Bootstrap, Ruby, Ruby on Rails, Stimulus, Heroku and use of APIs."
                   icon={FaBus}
                 />

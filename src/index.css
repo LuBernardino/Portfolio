@@ -65,9 +65,11 @@ section:nth-child(1) {
   min-height: calc(100vh - 80px);
   padding: 0 150px 0 0;
 
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 100px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   /* border-bottom: 30px solid var(--col-purple); */
 }
 
