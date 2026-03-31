@@ -138,11 +138,17 @@ span {
 /* ------------------- */
 
 /* Style section HOME */
+#home {
+  /* background: red !important; */
+  display: flex;
+}
+
 .image-home {
   width: 800px;
   margin-top: -90px;
   z-index: 100;
   object-fit: cover;
+  /* background: blue !important; */
 }
 
 .content-home p {
@@ -155,7 +161,10 @@ span {
 }
 
 .content-home {
-  margin-top: 80px;
+  padding-top: 80px;
+  /* width: 100%; */
+  /* background: green; */
+  padding-left: 200px;
 }
 
 /* ------------------- */
@@ -194,6 +203,7 @@ span {
 
   .image-home {
     width: 430px;
+    margin-top: 10px;
   }
 
   .section-photo {
